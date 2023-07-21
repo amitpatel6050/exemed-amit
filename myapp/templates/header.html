@@ -1,0 +1,448 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+{% csrf_token %}
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Home - Exemed Pharmaceuticals</title>
+	<!-- font-awesome cdn -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+	<!-- animate style css -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+	<!-- google font cdn -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Bad+Script&family=Exo+2:wght@300;400;500&display=swap"
+		rel="stylesheet">
+	<!-- bootstrap css cdn -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+	<!-- Link Swiper's CSS -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+	<!-- animate.style cdn -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+	<!-- custom css -->
+	<link rel="stylesheet" href="{% static 'css/style.css' %}">
+	<link rel="stylesheet" href="{% static 'css/mediaQuery.css'%}">
+	<link rel="stylesheet" href="{% static 'css/animation.css'%}">
+	<!-- Link Swiper's CSS -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+	<!-- slick slider -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
+	<!-- bxslide cdn -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css">
+	<!-- owl carousel css cdn -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+	<link rel="stylesheet"
+		href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+
+
+
+</head>
+
+<body>
+	<noscript>Your Browser does not support javascript</noscript>
+
+	<!-- header -->
+	<header class="main-header">
+		<div class="navi">
+			<div class="container">
+				<div class="row header-val">
+					<div class="col-xl-2 col-lg-2 col-md-8 col-sm-8">
+						<div class="image">
+							<img src="{% static 'images/logo.png'%}" alt="">
+						</div>
+					</div>
+					<div class="col-10 main-menu">
+						<ul>
+							<li>
+								<a href="" class="text-white fs-5">About Exemed Pharmaceuticals
+								</a>
+							</li>
+
+							<li>
+								<form action="#">
+									<div class="search">
+										<input type="text" id="search" class="search-val" placeholder="Search...">
+										<div class="icon">
+											<span class="fa-solid fa-search"></span>
+										</div>
+									</div>
+								</form>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="search-btn">
+				<a href="#" class="megnifier">
+					<span class="fa-solid fa-search"></span>
+				</a>
+			</div>
+			<div class="menu-btn">
+				<button class="show-menu">
+					<span class="fa-solid fa-bars"></span>
+				</button>
+			</div>
+		</div>
+		<div class="searching">
+			<div class="close">
+				<span class="fa-solid fa-xmark-circle"></span>
+			</div>
+			<input type="text" name="" id="" placeholder="Search ...">
+		</div>
+	</header>
+
+	<!-- navmenu -->
+	<section class="nav-menu">
+		<div class="set-menus">
+			<div class="close">
+				<button class="close-btn">
+					<span class="fa-solid fa-close"></span>
+				</button>
+			</div>
+			<ul>
+				<li><a href="{% url 'index' %}">Home</a></li>
+				<li class="about-menu">
+					<a href="#" class="a-menu">@ Exemed
+						<span class="fa-solid fa-caret-down"></span>
+					</a>
+					<ul class="display-menu">
+						<li><a href="{% url 'about' %}">About Us</a></li>
+						<!-- <li><a href="{% url 'management' %}">Management</a></li>
+						<li><a href="{% url 'core_value' %}">Core Value</a></li> -->
+						<li><a href="{% url 'facilities' %}">Manufacturing Facilities</a></li>
+						<li><a href="{% url 'global_presence' %}">Global Presence</a></li>
+					</ul>
+				</li>
+				<li class="about-menu1">
+					<a href="#" class="a-menu1">Products
+						<span class="fa-solid fa-caret-down"></span>
+					</a>
+					<ul class="display-menu1">
+						<li><a href="{% url 'api' %}">API</a></li>
+						<li><a href="{% url 'brand' %}">Formulations</a></li>
+						<!-- <li><a href="">Ethical Division</a></li> -->
+					</ul>
+				</li>
+				<li><a href="{% url 'fd' %}">Research &
+						Development</a></li>
+				<li><a href="{% url 'client' %}">Our Esteemed Partners</a></li>
+				<li><a href="{% url 'career' %}">Career</a></li>
+				<li><a href="{% url 'reg_form' %}">Explorer a Opportunity</a></li>
+				<li><a href="{% url 'celebration' %}">Life @ Exemed</a></li>
+				<li><a href="{% url 'contact_us' %}">Contact Us</a></li>
+			</ul>
+		</div>
+		<div class="slide-image-back">
+			<div class="set-images">
+				<div class="container">
+					<div class="row slide-menu">
+						<h1>Exemed </h1>
+						<h1>Pharmaceutical</h1>
+						<div class="com-text">
+							<p class="fs-3">
+								<span class="fs-6">Phone</span>
+								<br>
+								9662536756
+							</p>
+						</div>
+						<div class="com-add">
+							<p class="fs-3">
+								<span class="fs-6">Address </span> <br>
+								Block no 628(A&B) <br> ECP Canal Road,
+								Luna, <br> Padra , Vadodara
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	{% block content %}
+	{% endblock %}
+	<!-- FOOTER -->
+	<section class="footer-content py-lg-4 py-md-3 py-sm-3 py-3">
+		<div class="container py-lg-5 py-md-5 py-sm-4 py-3 p-3">
+			<div class="row footer-info">
+				<div class="footer-left-grid col-lg-4 col-md-6 col-sm-6 my-3">
+					<div class="logo">
+						<div class="image">
+							<img src="{% static 'images/logo.png' %}" alt="" class="">
+						</div>
+					</div>
+					<div class="mb-2 pt-md-4 pt-3 footer-address">
+						<ul>
+							<li>
+								<p>Exemed Pharmaceuticals</p>
+								<p>Block no 628(A&B),ECP Canal Road,</p>
+								<p>Padra ,Luna, Vadodara.</p>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="footer-sub-title col-lg-3 col-md-6 col-sm-6 my-3">
+					<h4 class="mb-lg-6 mb-3">
+						About Us
+					</h4>
+					<ul class="bottom-menu">
+						<li><a href="{% url 'about' %}">About Exemedpharmaceuticals</a></li>
+						<li><a href="{% url 'fd' %}">Research &
+								Development</a></li>
+						<li><a href="{% url 'client' %}">Our Esteemed Partners</a></li>
+						<li><a href="{% url 'reg_form' %}">Explore an Opportunity</a></li>
+						<li><a href="{% url 'career' %}">Career</a></li>
+
+					</ul>
+				</div>
+				<div class="col-lg-2 col-md-6 col-sm-6 footer-sub-title my-3">
+					<h4 class="mb-lg-6 mb-3 ">
+						Quick Link
+					</h4>
+					<ul class="bottom-menu">
+						<li><a href="{% url 'career' %}">Stories To Tell</a></li>
+						<li><a href="{% url 'brand' %}">Our Products</a></li>
+						<li><a href="{% url 'contact_us' %}">Contact Us</a></li>
+					</ul>
+				</div>
+				<div class="footer-email-info col-lg-3 col-md-6 col-sm-6 my-3">
+					<h4>Get in Touch</h4><br>
+					<div class="footer-email-content">
+						<h6>info@exemedpharma.com</h6><br>
+						<h6>9662536756</h6>
+					</div>
+					<!-- <div class="newsletter">
+						<form action="#" method="post">
+							<div class="py-2">
+								<input type="email" class="form-control" placeholder="Your Preffered Email Address"
+									required>
+							</div>
+							<div class="py-2">
+								<button class="btn1">SUBSCRIBE NOW</button>
+							</div>
+						</form> -->
+				</div>
+			</div>
+		</div>
+		<div class="row copyright text-center py-3">
+			<p>&copy; Copyright 2023 Exemed Pharmaceuticals. All rights reserved. Read more about our Privacy
+				Policy and Terms & Conditions</p>
+		</div>
+		</div>
+	</section>
+
+	<!-- script -->
+	<script src="{% static 'js/script.js'%}"></script>
+	<script src="{% static 'js/counting.js'%}"></script>
+	<!-- jquery cdn -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+	<!-- bxslider cdn -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.js"></script>
+	<!-- bootstrap js cdn -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+	<!-- slick slider -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+	<!-- owl-carousel js cdn -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+	<!-- Swiper JS -->
+	<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+	<!--  for register for -->
+
+
+
+	<!-- slick slider js -->
+	<script>
+		var swiper = new Swiper(".mySwiper", {
+			loop: true,
+			effect: "fade",
+			pagination: {
+				el: ".swiper-pagination",
+			},
+			autoplay: {
+				delay: 2500,
+				disableOnInteraction: false,
+			},
+		});
+	</script>
+	<script>
+		// Homepage slider
+		$(document).ready(function () {
+			$(".bxslider").bxSlider({
+				pager: false,
+				controls: false,
+				auto: true,
+				speed: 2000,
+				autoHover: true,
+			});
+		})
+
+		$(document).ready(function () {
+
+			$('.owl-carousel').owlCarousel({
+				loop: true,
+				margin: 10,
+				nav: false,
+				responsive: {
+					0: {
+						items: 1
+					},
+					576: {
+						items: 2
+					},
+					1000: {
+						items: 3
+					},
+					1200: {
+						items: 4
+					}
+				}
+			})
+			$('.home_slider').slick({
+				arrows: false,
+				dots: true,
+				infinite: true,
+				autoplay: true,
+			});
+		});
+
+		// our - product
+		$('.division_ser').slick({
+			infinite: true,
+			slidesToShow: 4,
+			slidesToScroll: 1,
+			arrows: false,
+			autoplay: true,
+			autoplaySpeed: 5000,
+			dots: true,
+			responsive: [
+				{
+					breakpoint: 1200,
+					settings: {
+						slidesToShow: 3,
+						slidesToScroll: 1,
+						infinite: true,
+						dots: true
+					}
+				},
+				{
+					breakpoint: 1024,
+					settings: {
+						slidesToShow: 2,
+						slidesToScroll: 1,
+						infinite: true,
+						dots: true
+					}
+				},
+				{
+					breakpoint: 600,
+					settings: {
+						slidesToShow: 1,
+						slidesToScroll: 1
+					}
+				}
+			]
+		});
+
+		// brands list
+		$('.brands_our').slick({
+			infinite: true,
+			slidesToShow: 5,
+			slidesToScroll: 1,
+			autoplay: true,
+			autoplaySpeed: 5000,
+			dots: true,
+			responsive: [
+				{
+					breakpoint: 1200,
+					settings: {
+						slidesToShow: 4,
+						slidesToScroll: 1,
+						infinite: true,
+						dots: true
+					}
+				},
+				{
+					breakpoint: 1100,
+					settings: {
+						slidesToShow: 3,
+						slidesToScroll: 1,
+						infinite: true,
+						dots: true
+					}
+				},
+				{
+					breakpoint: 900,
+					settings: {
+						slidesToShow: 3,
+						slidesToScroll: 1,
+						infinite: true,
+						dots: true
+					}
+				},
+				{
+					breakpoint: 600,
+					settings: {
+						slidesToShow: 2,
+						slidesToScroll: 1,
+						infinite: true,
+						dots: true
+					}
+				},
+				{
+					breakpoint: 500,
+					settings: {
+						slidesToShow: 1,
+						slidesToScroll: 1,
+						infinite: true,
+						// dots: true
+					}
+				}
+			]
+		});
+
+		// awards
+		$('.our-awards').slick({
+			infinite: true,
+			slidesToShow: 3,
+			slidesToScroll: 1,
+			arrows: true,
+			autoplay: true,
+			autoplaySpeed: 5000,
+			dots: false,
+			responsive: [
+				{
+					breakpoint: 1200,
+					settings: {
+						slidesToShow: 3,
+						slidesToScroll: 1,
+						infinite: true,
+						dots: true
+					}
+				},
+				{
+					breakpoint: 768,
+					settings: {
+						slidesToShow: 2,
+						slidesToScroll: 1,
+						infinite: true,
+						dots: true
+					}
+				},
+				{
+					breakpoint: 600,
+					settings: {
+						slidesToShow: 1,
+						slidesToScroll: 1
+					}
+				}
+			]
+		});
+	</script>
+</body>
+
+</html>

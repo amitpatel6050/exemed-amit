@@ -1,0 +1,442 @@
+{% extends 'header.html' %}
+{% load static %}
+{% block content %}
+
+<!DOCTYPE html>
+{% csrf_token %}
+
+<!------- r & d details ---------->
+<section class="r-d_details">
+    <div class="container py-5">
+        <div class="row py-5">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-auto text-center">
+                <p class="display-1 text-white pb-4">Research & Development</p>
+                <p class="text-white fs-4 w-75 py-3 m-auto">We have dedicated R&D centres for Active pharmaceutical
+                    ingredients (API’s) and Finished dosage forms.</p>
+                <div class="fs-5 text-white"><a href="{% url 'index' %} " class="text-white">Home </a>
+                    <span class="fa-solid fa-angles-right fs-6"></span>
+                    R & D
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="mv_icon">
+        <a href="#about_comp"><span class="fa-solid fa-arrow-down"></span></a>
+    </div>
+</section>
+
+<!-- r&d overview -->
+<section class="rd_overview">
+    <div class="container">
+        <div class="row p-0 py-5">
+            <div class="col-lg-12">
+                <div class="title text-center">
+                    <h1>R & D overview</h1><br>
+                    <p>We have dedicated R&D centres for Active pharmaceutical ingredients (API’s) and Finished dosage
+                        forms. Our R&D
+                        activities are aimed at delivering cost effective therapeutically efficient products that
+                        improve the quality of
+                        millions of people’s lives across the globe. Our strong R&D skills along with understanding of
+                        the local regulatory
+                        requirements have enabled successful registrations of products in India as well as worldwide
+                        markets.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<!-- r&d details -->
+<section class="r-d-details">
+    <div class="container p-0">
+        <div class="row p-0 py-4">
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12">
+                <div class="rd-details">
+                    <div class="uppertext">Regulatory compliance</div>
+                    <div class="divider"></div>
+                    <div class="bottomtext">
+                        We ensure that our development work is in line with the current Regulatory requirements for
+                        various markets. We consider
+                        the compliance as our top most responsibility.
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12">
+                <div class="rd-details">
+                    <div class="uppertext">Innovations</div>
+                    <div class="divider"></div>
+                    <div class="bottomtext">
+                        We believe and always work towards innovative, efficient, cost effective and quality product
+                        development. We are
+                        constantly looking after process improvements to provide best solutions to our partners.
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12">
+                <div class="rd-details">
+                    <div class="uppertext">Trust and integrity</div>
+                    <div class="divider"></div>
+                    <div class="bottomtext">
+                        For any successful relationship, Trust and integrity are most important parameters and we always
+                        try our best to uphold
+                        these values to become a reliable partner.
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12">
+                <div class="rd-details">
+                    <div class="uppertext">Quality</div>
+                    <div class="divider"></div>
+                    <div class="bottomtext">
+                        We are committed to deliver robust and quality products which will meet the regulatory
+                        requirements as well as our
+                        customer expectations. We work hard for improving the process to meet the quality expectations.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- process flow -->
+<section class="process-flow">
+    <div class="container p-0">
+        <div class="row p-0 m-0">
+            <div class="col-lg-12">
+                <div class="title p-2 px-5">
+                    <h2 class="text-white">Product identification and feasibility evaluation</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row p-0 m-0">
+            <div class="row py-5">
+                <div class="col-lg-12">
+                    <div class="grid-rd">
+                        <div class="rd-detail">
+                            <div class="icon">
+                                <span class="fa-solid fa-book"></span>
+                            </div>
+                            <div class="text">
+                                <h5>Prototype developments</h5>
+                            </div>
+                        </div>
+                        <div class="rd-detail">
+                            <div class="icon">
+                                <span class="fa-solid fa-flask"></span>
+                            </div>
+                            <div class="text">
+                                <h5>Stability studies and clinical studies</h5>
+                            </div>
+                        </div>
+                        <div class="rd-detail">
+                            <div class="icon">
+                                <span class="fa-solid fa-sitemap"></span>
+                            </div>
+                            <div class="text">
+                                <h5>Regulatory approvals</h5>
+                            </div>
+                        </div>
+                        <div class="rd-detail">
+                            <div class="icon">
+                                <i class="fa-solid fa-users-gear"></i>
+                            </div>
+                            <div class="text">
+                                <h5>Scale up and process validation</h5>
+                            </div>
+                        </div>
+                        <div class="rd-detail">
+                            <div class="icon">
+                                <span class="fa-solid fa-people-carry-box"></span>
+                            </div>
+                            <div class="text">
+                                <h5>Commercialisation</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- solutions -->
+<section class="solutions">
+    <div class="row py-5 solutionimg p-0">
+        <div class="col-lg-12">
+            <div class="head-title text-center">
+                <h1 class="text-capitalize">Technologies and product categories</h1>
+            </div>
+        </div>
+    </div>
+    <div class="row pt-3 p-0">
+        <div class="col-lg-12">
+            <div class="title text-center pb-4">
+                <h2>Technologies and product categories</h2>
+            </div>
+        </div>
+        <div class="sol-value">
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 p-0">
+                <div class="left-img">
+                    <img src="{% static 'images/fd.jpg' %}" alt="" class="img-fluid">
+                </div>
+            </div>
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                <ul>
+                    <li>
+                        <i class="fa-solid fa-circle-arrow-right"></i>
+                        Dry mixing
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-circle-arrow-right"></i>
+                        Wet and Dry Granulation
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-circle-arrow-right"></i>
+                        Monolayer and Bilayer tablets
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="row p-0">
+        <div class="sol-value">
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 p-0">
+                <div class="content">
+                    <ul>
+                        <li>
+                            <i class="fa-solid fa-circle-arrow-right"></i>
+                            Film and Functional coatings
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-circle-arrow-right"></i>
+                            Modified release tablets
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-circle-arrow-right"></i>
+                            Hard gelatin capsules
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-circle-arrow-right"></i>
+                            Conventional capsules
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-circle-arrow-right"></i>
+                            Pellets in capsules
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-circle-arrow-right"></i>
+                            Tablet in capsule
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 p-0">
+                <div class="left-img">
+                    <img src="{% static 'images/fd01.jpg' %}" alt="" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row pt-3 p-0">
+        <div class="col-lg-12">
+            <div class="title text-center pb-4">
+                <h2>Capsules Technology</h2>
+            </div>
+        </div>
+        <div class="sol-value">
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 p-0">
+                <div class="left-img">
+                    <img src="{% static 'images/fd02.jpg' %}" alt="" class="img-fluid">
+                </div>
+            </div>
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                <ul>
+                    <li>
+                        <i class="fa-solid fa-circle-arrow-right"></i>
+                        Powder Blending
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-circle-arrow-right"></i>
+                        Granulation (Wet & dry)
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-circle-arrow-right"></i>
+                        Drying (Fluidized Bed & Tray processing)
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- packing-technology -->
+<!-- <section class="packing-tech">
+    <div class="row py-4 packing-t p-0">
+        <div class="col-lg-12">
+            <div class="head-title text-center">
+                <h1 class="text-capitalize">packing technology</h1>
+            </div>
+        </div>
+    </div>
+    <div class="container p-0 pb-5">
+        <div class="row p-0 py-4">
+            <div class="col-lg-12 p-0">
+                <div class="grid-rd">
+                    <div class="rd-detail">
+                        <div class="text">
+                            <h5>Blisters</h5>
+                        </div>
+                    </div>
+                    <div class="rd-detail">
+                        <div class="text">
+                            <h5>PET, HDPE, Glass Bottle Packaging</h5>
+                        </div>
+                    </div>
+                    <div class="rd-detail">
+                        <div class="text">
+                            <h5>Sachets</h5>
+                        </div>
+                    </div>
+                    <div class="rd-detail">
+                        <div class="text">
+                            <h5>Strips</h5>
+                        </div>
+                    </div> -->
+<!-- <div class="rd-detail">
+                        <div class="text">
+                            <h5>Pouches in HDPE container</h5>
+                        </div>
+                    </div> -->
+<!-- </div>
+            </div>
+        </div>
+    </div>
+</section> -->
+
+<!-- collaborate -->
+<section class="collaborate">
+    <div class="row py-4 coll-bg p-0">
+        <div class="col-lg-12">
+            <div class="head-title text-center">
+                <h1 class="text-capitalize"></h1>
+            </div>
+        </div>
+    </div>
+    <!-- <div class="container">
+        <div class="row py-5 p-0 g-3">
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
+                <div class="col-details">
+                    <div class="col-image">
+                        <img src="{% static 'images/cap.webp' %}" alt="" class="img-fluid">
+                        <div class="img-over">
+                            <h3>Formulation Development</h3>
+                        </div>
+                    </div>
+                    <div class="pt-3">
+                        <p>Quality designed, Well equipped lab scale development facility to replicate & develop
+                            unique formulation with proper developmental designs
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
+                <div class="col-details">
+                    <div class="col-image">
+                        <img src="{% static 'images/cap.webp' %}" alt="" class="img-fluid">
+                        <div class="img-over">
+                            <h3>Formulation Development</h3>
+                        </div>
+                    </div>
+                    <div class="pt-3">
+                        <p>Quality designed, Well equipped lab scale development facility to replicate & develop
+                            unique formulation with proper developmental designs
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
+                <div class="col-details">
+                    <div class="col-image">
+                        <img src="{% static 'images/cap.webp' %}" alt="" class="img-fluid">
+                        <div class="img-over">
+                            <h3>Formulation Development</h3>
+                        </div>
+                    </div>
+                    <div class="pt-3">
+                        <p>Quality designed, Well equipped lab scale development facility to replicate & develop
+                            unique formulation with proper developmental designs
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
+                <div class="col-details">
+                    <div class="col-image">
+                        <img src="{% static 'images/cap.webp' %}" alt="" class="img-fluid">
+                        <div class="img-over">
+                            <h3>Formulation Development</h3>
+                        </div>
+                    </div>
+                    <div class="pt-3">
+                        <p>Quality designed, Well equipped lab scale development facility to replicate & develop
+                            unique formulation with proper developmental designs
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
+                <div class="col-details">
+                    <div class="col-image">
+                        <img src="{% static 'images/cap.webp' %}" alt="" class="img-fluid">
+                        <div class="img-over">
+                            <h3>Formulation Development</h3>
+                        </div>
+                    </div>
+                    <div class="pt-3">
+                        <p>Quality designed, Well equipped lab scale development facility to replicate & develop
+                            unique formulation with proper developmental designs
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
+                <div class="col-details">
+                    <div class="col-image">
+                        <img src="{% static 'images/cap.webp' %}" alt="" class="img-fluid">
+                        <div class="img-over">
+                            <h3>Formulation Development</h3>
+                        </div>
+                    </div>
+                    <div class="pt-3">
+                        <p>Quality designed, Well equipped lab scale development facility to replicate & develop
+                            unique formulation with proper developmental designs
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+</section>
+
+
+
+<!-- script -->
+<script src="{% static 'js/script.js' %}"></script>
+<!-- jquery cdn -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+<!-- bxslider cdn -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.js"></script>
+<!-- bootstrap js cdn -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+<!-- slick slider -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+<!-- owl-carousel js cdn -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+</html>
+
+{% endblock %}

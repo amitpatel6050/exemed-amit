@@ -1,0 +1,911 @@
+<!DOCTYPE html>
+<html lang="en">
+{% csrf_token %}
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Exemed Pharma</title>
+    <!-- font-awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- animate style css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- google font cdn -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@300;400;500&display=swap" rel="stylesheet">
+    <!-- bootstrap css cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- animate.style cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mediaQuery.css">
+    <link rel="stylesheet" href="css/animation.css">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <!-- slick slider -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
+    <!-- Add the new slick-theme.css if you want the default styling -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css">
+    <!-- owl carousel css cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+</head>
+
+<body>
+    <noscript>Your Browser does not support javascript</noscript>
+    <!-- header -->
+    <header class="main-header">
+        <div class="navi">
+            <div class="container">
+                <div class="row header-val">
+                    <div class="col-xl-2 col-lg-2 col-md-8 col-sm-8">
+                        <div class="image">
+                            <img src="images/logo.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-10 main-menu">
+                        <ul>
+                            <li>
+                                <a href="" class="text-white fs-5">About Exemed Pharma
+                                </a>
+                            </li>
+
+                            <li>
+                                <form action="#">
+                                    <div class="search">
+                                        <input type="text" id="search" class="search-val" placeholder="Search...">
+                                        <div class="icon">
+                                            <span class="fa-solid fa-search"></span>
+                                        </div>
+                                    </div>
+                                </form>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="search-btn">
+                <a href="#" class="megnifier">
+                    <span class="fa-solid fa-search"></span>
+                </a>
+            </div>
+            <div class="menu-btn">
+                <button class="show-menu">
+                    <span class="fa-solid fa-bars"></span>
+                </button>
+            </div>
+        </div>
+        <div class="searching">
+            <div class="close">
+                <span class="fa-solid fa-xmark-circle"></span>
+            </div>
+            <input type="text" name="" id="" placeholder="Search ...">
+        </div>
+    </header>
+
+    <!-- navmenu -->
+    <section class="nav-menu">
+        <div class="set-menus">
+            <div class="close">
+                <button class="close-btn">
+                    <span class="fa-solid fa-close"></span>
+                </button>
+            </div>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li class="about-menu">
+                    <a href="#" class="a-menu">About Us
+                        <span class="fa-solid fa-caret-down"></span>
+                    </a>
+                    <ul class="display-menu">
+                        <li><a href="">Overview</a></li>
+                        <li><a href="">Management</a></li>
+                        <li><a href="">CSR</a></li>
+                        <li><a href="">EHS</a></li>
+                        <li><a href="">Sustanibility</a></li>
+                    </ul>
+                </li>
+                <li class="about-menu1">
+                    <a href="#" class="a-menu1">Products
+                        <span class="fa-solid fa-caret-down"></span>
+                    </a>
+                    <ul class="display-menu1">
+                        <li><a href="">API</a></li>
+                        <li><a href="">Formulations</a></li>
+                        <li><a href="">Ethical Division</a></li>
+                    </ul>
+                </li>
+                <li><a href="">Accreditations</a></li>
+                <li><a href="">Our Clientele</a></li>
+                <li><a href="">Career</a></li>
+                <li><a href="">Life @ Exemed</a></li>
+                <li><a href="">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="slide-image-back">
+            <div class="set-images">
+                <div class="container">
+                    <div class="row slide-menu">
+                        <h1>Exemed Pharma</h1>
+                        <div class="com-text">
+                            <p class="fs-3">
+                                <span class="fs-6">Phone</span>
+                                <br>
+                                9999999999
+                            </p>
+                        </div>
+                        <div class="com-add">
+                            <p class="fs-3">
+                                <span class="fs-6">Address </span> <br>
+                                Exemed pharma,
+                                Vapi, Gujarat
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- homepage benner -->
+    <section class="careerSec">
+        <div class="container pb-5">
+            <div class="row py-5 careerDetails">
+                <div class="col-lg-6 col-md-12 col-sm-12 col-auto">
+                    <img src="images/careerImage.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12 col-auto text-center pt-5">
+                    <p class="display-1 text-white main_head">Grow with us</p>
+                    <p class="text-white fs-4 w-75 py-3 m-auto">Lorem ipsum dolor sit, amet consectetur adipisicing
+                        elit.
+                        Adipisci
+                        exercitationem impedit
+                        numquam, cupiditate provident quae maiores recusandae distinctio modi.</p>
+                    <div class="fs-5 text-white"><a href="index.html" class="text-white">Home </a>
+                        <span class="fa-solid fa-angles-right fs-6"></span>
+                        Career
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- career grow  -->
+    <section class="career-grow">
+        <div class="container py-5">
+            <div class="list-group" id="list-tab" role="tablist">
+                <div class="row text-center py-5 car-head">
+                    <div class="col-lg-2 col-md-2 col-sm-2 col-auto">
+                        <a class="list-group-item list-group-item-action btncar active" id="list-Ccap-list"
+                            data-bs-toggle="list" href="#list-Ccap" role="tab" aria-controls="list-Ccap">C</a>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-2 col-auto">
+                        <a class="list-group-item list-group-item-action btncar" id="list-Acap-list"
+                            data-bs-toggle="list" href="#list-Acap" role="tab" aria-controls="list-profile">A</a>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-2 col-auto">
+                        <a class="list-group-item list-group-item-action btncar" id="list-Rcap-list"
+                            data-bs-toggle="list" href="#list-Rcap" role="tab" aria-controls="list-messages">R</a>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-2 col-auto">
+                        <a class="list-group-item list-group-item-action btncar" id="list-Ecap1-list"
+                            data-bs-toggle="list" href="#list-Ecap1" role="tab" aria-controls="list-settings">E</a>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-2 col-auto">
+                        <a class="list-group-item list-group-item-action btncar" id="list-Ecap2-list"
+                            data-bs-toggle="list" href="#list-Ecap2" role="tab" aria-controls="list-settings">E</a>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-2 col-auto">
+                        <a class="list-group-item list-group-item-action btncar" id="list-Rcap2-list"
+                            data-bs-toggle="list" href="#list-Rcap2" role="tab" aria-controls="list-settings">R</a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-auto">
+                        <div class="tab-content" id="nav-tabContent">
+                            <div class="tab-pane fade show active" id="list-Ccap" role="tabpanel"
+                                aria-labelledby="list-Ccap-list">
+                                <div class="row d-flex align-items-center">
+                                    <div class="col-lg-6 col-md-6 col-sm-12 col-auto">
+                                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia, repellat
+                                        voluptatibus ipsa quo nihil assumenda natus inventore, explicabo architecto
+                                        nostrum sapiente accusantium quis maxime illum minus vitae est sit officiis.
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-12 col-auto">
+                                        <img src="images/bannerimage1.jpg" alt="" class="img-fluid">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="list-Acap" role="tabpanel" aria-labelledby="list-Acap-list">
+                                <div class="row d-flex align-items-center">
+                                    <div class="col-lg-6 col-md-6 col-sm-12 col-auto">
+                                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia, repellat
+                                        voluptatibus ipsa quo nihil assumenda natus inventore, explicabo architecto
+                                        nostrum sapiente accusantium quis maxime illum minus vitae est sit officiis.
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-12 col-auto">
+                                        <img src="images/bannerimage2.jpg" alt="" class="img-fluid">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="list-Rcap" role="tabpanel"
+                                aria-labelledby="list-messages-list">
+                                <div class="row d-flex align-items-center">
+                                    <div class="col-lg-6 col-md-6 col-sm-12 col-auto">
+                                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia, repellat
+                                        voluptatibus ipsa quo nihil assumenda natus inventore, explicabo architecto
+                                        nostrum sapiente accusantium quis maxime illum minus vitae est sit officiis.
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-12 col-auto">
+                                        <img src="images/bannerimage3.jpg" alt="" class="img-fluid">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="list-Ecap1" role="tabpanel"
+                                aria-labelledby="list-settings-list">
+                                <div class="row d-flex align-items-center">
+                                    <div class="col-lg-6 col-md-6 col-sm-12 col-auto">
+                                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia, repellat
+                                        voluptatibus ipsa quo nihil assumenda natus inventore, explicabo architecto
+                                        nostrum sapiente accusantium quis maxime illum minus vitae est sit officiis.
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-12 col-auto">
+                                        <img src="images/bannerimage1.jpg" alt="" class="img-fluid">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="list-Ecap2" role="tabpanel"
+                                aria-labelledby="list-settings-list">
+                                <div class="row d-flex align-items-center">
+                                    <div class="col-lg-6 col-md-6 col-sm-12 col-auto">
+                                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia, repellat
+                                        voluptatibus ipsa quo nihil assumenda natus inventore, explicabo architecto
+                                        nostrum sapiente accusantium quis maxime illum minus vitae est sit officiis.
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-12 col-auto">
+                                        <img src="images/bannerimage2.jpg" alt="" class="img-fluid">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="list-Rcap2" role="tabpanel"
+                                aria-labelledby="list-settings-list">
+                                <div class="row d-flex align-items-center">
+                                    <div class="col-lg-6 col-md-6 col-sm-12 col-auto">
+                                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia, repellat
+                                        voluptatibus ipsa quo nihil assumenda natus inventore, explicabo architecto
+                                        nostrum sapiente accusantium quis maxime illum minus vitae est sit officiis.
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-12 col-auto">
+                                        <img src="images/bannerimage3.jpg" alt="" class="img-fluid">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- rewards -->
+    <section class="reward-recog">
+        <div class="container py-5">
+            <div class="row pb-5">
+                <div class="col-lg-12 text-center">
+                    <h1 class="text-capitalize mainhead">Grow your career</h1>
+                </div>
+            </div>
+            <div class="row py-5">
+                <div class="col-lg-4 col-md-6 col-sm-12 col-auto">
+                    <div class="reward-img">
+                        <div class="rev-img">
+                            <img src="images/gal5.jpg" alt="" class="img-fluid">
+                            <div class="reward-img-overlay">
+                                <h4>Lorem ipsum dolor</h4>
+                            </div>
+                        </div>
+                        <p class="p-4">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia, voluptatem consequuntur?
+                            Reiciendis ea exercitationem sunt quo explicabo quibusdam minima quam nisi magnam. Eum
+                            maxime ratione impedit placeat beatae eveniet modi.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 col-auto">
+                    <div class="reward-img">
+                        <div class="rev-img">
+                            <img src="images/gal5.jpg" alt="" class="img-fluid">
+                            <div class="reward-img-overlay">
+                                <h4>Lorem ipsum dolor</h4>
+                            </div>
+                        </div>
+                        <p class="p-4">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia, voluptatem consequuntur?
+                            Reiciendis ea exercitationem sunt quo explicabo quibusdam minima quam nisi magnam. Eum
+                            maxime ratione impedit placeat beatae eveniet modi.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 col-auto">
+                    <div class="reward-img">
+                        <div class="rev-img">
+                            <img src="images/gal5.jpg" alt="" class="img-fluid">
+                            <div class="reward-img-overlay">
+                                <h4>Lorem ipsum dolor</h4>
+                            </div>
+                        </div>
+                        <p class="p-4">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia, voluptatem consequuntur?
+                            Reiciendis ea exercitationem sunt quo explicabo quibusdam minima quam nisi magnam. Eum
+                            maxime ratione impedit placeat beatae eveniet modi.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row py-5 reward-bg">
+                <div class="col-lg-4 col-md-4 col-sm-12 col-auto text-center p-5">
+                    <h1>Rewards and Recoganition</h1>
+                </div>
+                <div class="col-lg-8 col-md-8 col-sm-12 col-auto px-5">
+                    <p>
+                        Pat on the back is an initiative taken by the Human Resources Team to appreciate Zydans who
+                        perform exceptionally well in their domain. Pat on the Back is given to Zydans who take up
+                        additional responsibilities willingly and flawlessly execute the same. It highlights the efforts
+                        of Zydans who come up with new initiatives which contributes not only to their respective teams
+                        but also to the entire Zydus Healthcare Limited.
+                    </p>
+                    <p>
+                        Zydus Healthcare Limited recognizes such individuals with a ‘Pat on the Back’ award & Gift
+                        vouchers quarterly as a small token of appreciation. This reward, in turn, makes every recipient
+                        feel valued for his/her services to the Zydus Healthcare Limited, and that is truly priceless.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- success story -->
+    <section class="success-story">
+        <div class="container py-5">
+            <div class="row pb-5">
+                <div class="col-lg-12 text-center">
+                    <h1 class="text-capitalize mainhead">Success story</h1>
+                </div>
+            </div>
+            <div class="accordion" id="success_story_list">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            <div class="biography">
+                                <div class="img">
+                                    <img src="images/img1.jpg" alt="">
+                                </div>
+                                <div class="bio-info">
+                                    <h3>Ms. Kalpana Parekh</h3>
+                                    <p>Manager</p>
+                                </div>
+                            </div>
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#success_story_list">
+                        <div class="accordion-body">
+                            <strong>This is the first item's accordion body.</strong> It is shown by default, until the
+                            collapse plugin adds the appropriate classes that we use to style each element. These
+                            classes control the overall appearance, as well as the showing and hiding via CSS
+                            transitions. You can modify any of this with custom CSS or overriding our default variables.
+                            It's also worth noting that just about any HTML can go within the
+                            <code>.accordion-body</code>, though the transition does limit overflow.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            <div class="biography">
+                                <div class="img">
+                                    <img src="images/img2.jpg" alt="">
+                                </div>
+                                <div class="bio-info">
+                                    <h3>Mr. Daxesh Patel</h3>
+                                    <p>Manager</p>
+                                </div>
+                            </div>
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#success_story_list">
+                        <div class="accordion-body">
+                            <strong>This is the second item's accordion body.</strong> It is hidden by default, until
+                            the collapse plugin adds the appropriate classes that we use to style each element. These
+                            classes control the overall appearance, as well as the showing and hiding via CSS
+                            transitions. You can modify any of this with custom CSS or overriding our default variables.
+                            It's also worth noting that just about any HTML can go within the
+                            <code>.accordion-body</code>, though the transition does limit overflow.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            <div class="biography">
+                                <div class="img">
+                                    <img src="images/img1.jpg" alt="">
+                                </div>
+                                <div class="bio-info">
+                                    <h3>Mr. Kalpana Parekh</h3>
+                                    <p>Manager</p>
+                                </div>
+                            </div>
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#success_story_list">
+                        <div class="accordion-body">
+                            <strong>This is the second item's accordion body.</strong> It is hidden by default, until
+                            the collapse plugin adds the appropriate classes that we use to style each element. These
+                            classes control the overall appearance, as well as the showing and hiding via CSS
+                            transitions. You can modify any of this with custom CSS or overriding our default variables.
+                            It's also worth noting that just about any HTML can go within the
+                            <code>.accordion-body</code>, though the transition does limit overflow.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            <div class="biography">
+                                <div class="img">
+                                    <img src="images/img2.jpg" alt="">
+                                </div>
+                                <div class="bio-info">
+                                    <h3>Mr. Daxesh Patel</h3>
+                                    <p>Manager</p>
+                                </div>
+                            </div>
+                        </button>
+                    </h2>
+                    <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#success_story_list">
+                        <div class="accordion-body">
+                            <strong>This is the second item's accordion body.</strong> It is hidden by default, until
+                            the collapse plugin adds the appropriate classes that we use to style each element. These
+                            classes control the overall appearance, as well as the showing and hiding via CSS
+                            transitions. You can modify any of this with custom CSS or overriding our default variables.
+                            It's also worth noting that just about any HTML can go within the
+                            <code>.accordion-body</code>, though the transition does limit overflow.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                            <div class="biography">
+                                <div class="img">
+                                    <img src="images/img1.jpg" alt="">
+                                </div>
+                                <div class="bio-info">
+                                    <h3>Mr. Kalpana Parekh</h3>
+                                    <p>Manager</p>
+                                </div>
+                            </div>
+                        </button>
+                    </h2>
+                    <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#success_story_list">
+                        <div class="accordion-body">
+                            <strong>This is the second item's accordion body.</strong> It is hidden by default, until
+                            the collapse plugin adds the appropriate classes that we use to style each element. These
+                            classes control the overall appearance, as well as the showing and hiding via CSS
+                            transitions. You can modify any of this with custom CSS or overriding our default variables.
+                            It's also worth noting that just about any HTML can go within the
+                            <code>.accordion-body</code>, though the transition does limit overflow.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                            <div class="biography">
+                                <div class="img">
+                                    <img src="images/img2.jpg" alt="">
+                                </div>
+                                <div class="bio-info">
+                                    <h3>Mr. Daxesh Patel</h3>
+                                    <p>Manager</p>
+                                </div>
+                            </div>
+                        </button>
+                    </h2>
+                    <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#success_story_list">
+                        <div class="accordion-body">
+                            <strong>This is the second item's accordion body.</strong> It is hidden by default, until
+                            the collapse plugin adds the appropriate classes that we use to style each element. These
+                            classes control the overall appearance, as well as the showing and hiding via CSS
+                            transitions. You can modify any of this with custom CSS or overriding our default variables.
+                            It's also worth noting that just about any HTML can go within the
+                            <code>.accordion-body</code>, though the transition does limit overflow.
+                        </div>
+                    </div>
+                </div>
+
+                <h6 class="py-2 fs-4"><a class="text-capitalize viewmore">+View More</a></h6>
+                <div class="otherVal">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                                <div class="biography">
+                                    <div class="img">
+                                        <img src="images/img2.jpg" alt="">
+                                    </div>
+                                    <div class="bio-info">
+                                        <h3>Mr. Daxesh Patel</h3>
+                                        <p>Manager</p>
+                                    </div>
+                                </div>
+                            </button>
+                        </h2>
+                        <div id="collapseSeven" class="accordion-collapse collapse"
+                            data-bs-parent="#success_story_list">
+                            <div class="accordion-body">
+                                <strong>This is the second item's accordion body.</strong> It is hidden by default,
+                                until
+                                the collapse plugin adds the appropriate classes that we use to style each element.
+                                These
+                                classes control the overall appearance, as well as the showing and hiding via CSS
+                                transitions. You can modify any of this with custom CSS or overriding our default
+                                variables.
+                                It's also worth noting that just about any HTML can go within the
+                                <code>.accordion-body</code>, though the transition does limit overflow.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                                <div class="biography">
+                                    <div class="img">
+                                        <img src="images/img1.jpg" alt="">
+                                    </div>
+                                    <div class="bio-info">
+                                        <h3>Mr. Kalpana Parekh</h3>
+                                        <p>Manager</p>
+                                    </div>
+                                </div>
+                            </button>
+                        </h2>
+                        <div id="collapseEight" class="accordion-collapse collapse"
+                            data-bs-parent="#success_story_list">
+                            <div class="accordion-body">
+                                <strong>This is the second item's accordion body.</strong> It is hidden by default,
+                                until
+                                the collapse plugin adds the appropriate classes that we use to style each element.
+                                These
+                                classes control the overall appearance, as well as the showing and hiding via CSS
+                                transitions. You can modify any of this with custom CSS or overriding our default
+                                variables.
+                                It's also worth noting that just about any HTML can go within the
+                                <code>.accordion-body</code>, though the transition does limit overflow.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+                                <div class="biography">
+                                    <div class="img">
+                                        <img src="images/img2.jpg" alt="">
+                                    </div>
+                                    <div class="bio-info">
+                                        <h3>Mr. Daxesh Patel</h3>
+                                        <p>Manager</p>
+                                    </div>
+                                </div>
+                            </button>
+                        </h2>
+                        <div id="collapseNine" class="accordion-collapse collapse" data-bs-parent="#success_story_list">
+                            <div class="accordion-body">
+                                <strong>This is the second item's accordion body.</strong> It is hidden by default,
+                                until
+                                the collapse plugin adds the appropriate classes that we use to style each element.
+                                These
+                                classes control the overall appearance, as well as the showing and hiding via CSS
+                                transitions. You can modify any of this with custom CSS or overriding our default
+                                variables.
+                                It's also worth noting that just about any HTML can go within the
+                                <code>.accordion-body</code>, though the transition does limit overflow.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- thanking -->
+    <section class="thankingSec">
+        <div class="container py-5">
+            <div class="row g-2 py-5">
+                <div class="col-lg-6 col-md-12 col-sm-12 col-auto">
+                    <h1 class="ThankHead">Thanks Buddy</h1>
+                    <p class="">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla maiores velit, voluptates quae
+                        animi architecto, itaque corporis laudantium voluptatibus cumque ullam commodi cum quisquam hic
+                        perferendis et! Itaque, sed quasi.
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut soluta obcaecati in culpa pariatur,
+                        fugiat exercitationem ullam omnis quidem rerum qui nemo reprehenderit modi optio dolorem et
+                        cumque laborum mollitia.
+                    </p>
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12 col-auto">
+                    <div class="row g-2">
+                        <div class="col-lg-4 col-md-4 col-sm-12 col-auto">
+                            <div class="thank-re-box">
+                                <span class="number">01</span>
+                                <div class="icon">
+                                    <span class="fa-solid fa-user-friends"></span>
+                                </div>
+                                <div class="pt-3 fs-5">
+                                    <p>Putting Organization Before Oneself</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-12 col-auto">
+                            <div class="thank-re-box">
+                                <span class="number">02</span>
+                                <div class="icon">
+                                    <span class="fa-solid fa-trophy"></span>
+                                </div>
+                                <div class="pt-3 fs-5">
+                                    <p>Excellent in Execution</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-12 col-auto">
+                            <div class="thank-re-box">
+                                <span class="number">03</span>
+                                <div class="icon">
+                                    <span class="fa-solid fa-lightbulb"></span>
+                                </div>
+                                <div class="pt-3 fs-5">
+                                    <p>Innovation</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-12 col-auto">
+                            <div class="thank-re-box">
+                                <span class="number">04</span>
+                                <div class="icon">
+                                    <span class="fa-solid fa-handshake"></span>
+                                </div>
+                                <div class="pt-3 fs-5">
+                                    <p>Collaboration</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-12 col-auto">
+                            <div class="thank-re-box">
+                                <span class="number">05</span>
+                                <div class="icon">
+                                    <span class="fa-solid fa-exchange"></span>
+                                </div>
+                                <div class="pt-3 fs-5">
+                                    <p>Adaptibility to change</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-12 col-auto">
+                            <div class="thank-re-box">
+                                <span class="number">06</span>
+                                <div class="icon">
+                                    <span class="fa-solid fa-thumbs-up"></span>
+                                </div>
+                                <div class="pt-3 fs-5">
+                                    <p>Respect Trust and Integrity</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row py-3">
+                <p class="text-center px-5">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus unde amet voluptas eligendi
+                    voluptatem neque iste, repellat incidunt, mollitia dolores iure modi sequi veniam, voluptate ullam
+                    at eveniet vel culpa!
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam debitis temporibus assumenda
+                    asperiores repellendus reprehenderit voluptate. Temporibus quas placeat, iste velit magni cumque
+                    tempore cupiditate dolor officiis facilis tempora accusamus.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- dicussiob -->
+    <section class="discussion">
+        <div class="container">
+            <div class="row py-5">
+                <div class="col-lg-5 col-md-6 col-sm-12 col-auto">
+                    <img src="images/garbadusseraimg1.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="col-lg-7 col-md-6 col-sm-12 col-auto">
+                    <h1 class="disHead">Rewards</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam corrupti beatae tempora iure
+                        commodi eaque tenetur magni. Facere id cupiditate obcaecati? Cupiditate nostrum repellendus
+                        voluptates vitae dolore et cumque. Excepturi.</p>
+                </div>
+            </div>
+            <div class="row py-3">
+                <div class="col-lg-7 col-md-6 col-sm-12 col-auto">
+                    <h1 class="disHead">Hall of Fame Achievers - (Star Night)</h1>
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi porro perferendis harum rem et
+                        assumenda sed repellat ipsa numquam obcaecati quia ab eum nam vitae, neque officia itaque.
+                        Porro, alias.</p>
+                </div>
+                <div class="col-lg-5 col-md-6 col-sm-12 col-auto">
+                    <img src="images/starnight.jpg" alt="" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- upper footer -->
+    <section class="upperFooter">
+        <div class="container-fluid p-0">
+            <div class="row text-center">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-auto p-0">
+                    <div class="back-footer p-4">
+                        <a href="">join with us
+                            <span class="fa-solid fa-arrow-right"></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 col-auto p-0">
+                    <div class="back-footer p-4">
+                        <a href="">Grow with us
+                            <span class="fa-solid fa-arrow-right"></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <section class="footer-content py-lg-4 py-md-3 py-sm-3 py-3">
+        <div class="container py-lg-5 py-md-5 py-sm-4 py-3">
+            <div class="row footer-info">
+                <div class="footer-left-grid col-lg-4 col-md-6 col-sm-6 my-3">
+                    <div class="logo">
+                        <div class="image">
+                            <img src="images/logo.png" alt="" class="">
+                        </div>
+                    </div>
+                    <div class="mb-2 pt-md-4 pt-3 footer-address">
+                        <ul>
+                            <li>
+                                <p>Zydus Healthcare Limited,</p>
+                                <p>Zydus Tower, CTS No. 460/6,</p>
+                                <p>Village Pahadi. Off I.B. Patel Road,</p>
+                                <p>Goregaon East, Mumbai - 400063</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-sub-title col-lg-3 col-md-6 col-sm-6 my-3">
+                    <h4 class="mb-lg-6 mb-3">
+                        About Us
+                    </h4>
+                    <ul class="bottom-menu">
+                        <li><a href="">About Zydus Healthcare Limited</a></li>
+                        <li><a href="">Our Archivements</a></li>
+                        <li><a href="">Life At Zydus Healthcare Limited</a></li>
+                        <li><a href="">Grow With Us</a></li>
+                        <li><a href="">Career</a></li>
+                        <li><a href="">Contact Us</a></li>
+                        <li><a href="">Visit Us - Google Map</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-6 footer-sub-title my-3">
+                    <h4 class="mb-lg-6 mb-3 ">
+                        Quick Link
+                    </h4>
+                    <ul class="bottom-menu">
+                        <li><a href="">Stroies To Tell</a></li>
+                        <li><a href="">Our Brands</a></li>
+                        <li><a href="">Read Blogs</a></li>
+                        <li><a href="">In The Spotlight</a></li>
+                        <li><a href="">FAQ's</a></li>
+                        <li><a href="">Zydus Lifesciences Ltd.</a></li>
+                    </ul>
+                </div>
+                <div class="footer-email-info col-lg-3 col-md-6 col-sm-6 my-3">
+                    <h4>Newsletter Subscription</h4>
+                    <div class="footer-email-content">
+                        <p>
+                            We regularly send out updates on our new product launches, news you must be aware of and
+                            interesting blogs
+                        </p>
+                    </div>
+                    <div class="newsletter">
+                        <form action="#" method="post">
+                            <div class="py-2">
+                                <input type="email" class="form-control" placeholder="Your Preffered Email Address"
+                                    required>
+                            </div>
+                            <div class="py-2">
+                                <button class="btn1">SUBSCRIBE NOW</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="row copyright text-center py-3">
+                <p>&copy; Copyright 2023 Exemed Pharma Limited. All rights reserved. Read more about our Privacy
+                    Policy and Terms & Conditions</p>
+            </div>
+        </div>
+    </section>
+    <!-- script -->
+    <script src="js/script.js"></script>
+    <!-- jquery cdn -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <!-- bootstrap js cdn -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <!-- slick slider -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <!-- owl-carousel js cdn -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+    <!-- slick slider -->
+    <script>
+        // celebrate
+        $('.celebrate-slider').slick({
+            infinite: true,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            arrows: false,
+            autoplay: true,
+            autoplaySpeed: 5000,
+            dots: true,
+            fade: true,
+        });
+
+        // employee facility
+        $('.emp-slider').slick({
+            infinite: true,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            arrows: false,
+            autoplay: true,
+            autoplaySpeed: 5000,
+            dots: true,
+            fade: true,
+        });
+
+        // accordian code
+        $(document).ready(function () {
+            $(".viewmore").click(function () {
+                $(".otherVal").slideDown(1000);
+                $(".viewmore").hide()
+            })
+        })
+    </script>
+</body>
+
+</html>

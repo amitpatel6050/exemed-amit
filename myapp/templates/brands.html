@@ -1,0 +1,790 @@
+{% extends 'header.html' %}
+{% load static %}
+{% block content %}
+
+<!DOCTYPE html>
+{% csrf_token %}
+
+<section class="Celebration">
+    <div class="container py-5">
+        <div class="row py-5">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-auto text-center">
+                <p class="display-1 text-white">Our Formulation Products</p>
+                <p class="text-white fs-4 w-75 py-3 m-auto"> Well equipped manufacturing facilities to produce
+                    pharmaceutical oral solid
+                    dosage forms for various therapeutic segments to cater to medicinal requirements across the
+                    globe.</p>
+                <div class="fs-5 text-white"><a href="{% url 'index' %}" class="text-white">Home </a>
+                    <div class="fs-5 text-white"><a href="{% url 'api' %}" class="text-white">API Product </a>
+                        <span class="fa-solid fa-angles-right fs-6"></span>
+                        Products
+                    </div>
+                </div>
+            </div>
+        </div>
+</section>
+
+
+<!-- our division -->
+<section class="our-division">
+    <div class="container py-5">
+        <div class="row g-5 div-slider m-auto">
+            <div class="col-lg-3 col-md-6 col-sm-12 col-12">
+                <div class="division">
+                    <div class="box-data">
+                        <div class="text">
+                            <h5>Dapagliflozin</h5>
+                            <!-- <p>5 mg and 10 mg</p> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 col-12">
+                <div class="division">
+                    <div class="box-data">
+                        <div class="text">
+                            <h5>Teneligliptin</h5>
+                            <!-- <p>20mg</p> -->
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 col-12">
+                <div class="division">
+                    <div class="box-data">
+                        <div class="text">
+                            <h5>Teneligliptin + Metformin</h5>
+                            <!-- <p>20 mg + 500 mg SR</p>
+                                <p>20 mg + 1000 mg SR</p> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 col-12">
+                <div class="division">
+                    <div class="box-data">
+                        <div class="text">
+                            <h5>Vildagliptin</h5>
+                            <!-- <p>50mg</p>
+                                <p>100 mg</p> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 col-12">
+                <div class="division">
+                    <div class="box-data">
+                        <div class="text">
+                            <h5>Vildagliptin + Metformin SR</h5>
+                            <!-- <p>50mg + 500mg</p>
+                                <p>50mg + 850mg</p>
+                                <p>50mg + 1000mg</p> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 col-12">
+                <div class="division">
+                    <div class="box-data">
+                        <div class="text">
+                            <h5>Vildagliptin + Metformin</h5>
+                            <!-- <p>50mg + 500mg SR</p>
+                                <p>50mg + 1000mg SR</p> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-lg-3 col-md-6 col-sm-12 col-12">
+                <div class="division">
+                    <div class="box-data">
+                        <div class="text">
+                            <h5>Vildagliptin SR</h5>
+                            <!-- <p>100mg SR</p> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-lg-3 col-md-6 col-sm-12 col-12">
+                <div class="division">
+                    <div class="box-data">
+                        <div class="text">
+                            <h5>Dapagliflozin + Metformin SR</h5>
+                            <!-- <p>5 mg + 500 mg SR </p>
+                                <p>5 mg + 1000 mg SR</p>
+                                <p>10 mg + 500 mg SR</p>
+                                <p>10 mg + 1000 mg SR</p> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12 col-12">
+                <div class="division">
+                    <div class="box-data">
+                        <div class="text">
+                            <h5>Metformin</h5>
+                            <!-- <p>500 mg</p>
+                                <p>850 mg</p>
+                                <p>1000 mg</p> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12 col-12">
+                <div class="division">
+                    <div class="box-data">
+                        <div class="text">
+                            <h5>Metformin SR</h5>
+                            <!-- <p>1000 mg SR</p>
+                                <p>500 mg SR</p> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12 col-12">
+                <div class="division">
+                    <div class="box-data">
+                        <div class="text">
+                            <h5>Dapagliflozin + Vildagliptin SR</h5>
+                            <!-- <p>5 mg + 100 mg SR</p>
+                                <p>10 mg + 100 mg SR</p> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12 col-12">
+                <div class="division">
+                    <div class="box-data">
+                        <div class="text">
+                            <h5>Sitagliptin Phosphate and Metformin Hydrochloride</h5>
+                            <!-- <p>50 mg + 1000 mg</p>
+                                <p>50 mg + 500 mg</p>
+                                <p>50 mg + 850 mg</p> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12 col-12">
+                <div class="division">
+                    <div class="box-data">
+                        <div class="text">
+                            <h5>Sitagliptin Phosphate and Metformin Hydrochloride ER</h5>
+                            <!-- <p>50 mg + 1000 mg</p>
+                                <p>50 mg + 500 mg</p> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12 col-12">
+                <div class="division">
+                    <div class="box-data">
+                        <div class="text">
+                            <h5>Dapagliflozin + sitagliptin</h5>
+                            <!-- <p>10 + 50 mg</p>
+                                <p>10 +100 mg</p>
+                                <p>5 + 50 mg</p>
+                                <p>15 + 100 mg</p> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12 col-12">
+                <div class="division">
+                    <div class="box-data">
+                        <div class="text">
+                            <h5>Imeglimin IR</h5>
+                            <!-- <p>500 mg</p>
+                                <p>1000 mg</p> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12 col-12">
+                <div class="division">
+                    <div class="box-data">
+                        <div class="text">
+                            <h5>Dapagliflozin + Sitagliptin + Metformin(ER)</h5>
+                            <!-- <p>10 +100 + 500 mg</p>
+                                <p>10 + 100 + 1000 mg</p> -->
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12 col-12">
+                <div class="division">
+                    <div class="box-data">
+                        <div class="text">
+                            <h5>Dapagliflozin + Vildagliptin(SR) + Metformin(SR)</h5>
+                            <!-- <p>10 +100 + 500 mg SR</p>
+                                <p>10 + 100 + 1000 mg SR</p> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12 col-12">
+                <div class="division">
+                    <div class="box-data">
+                        <div class="text">
+                            <h5>Dapagliflozin + Vildagliptin(SR) + Metformin(SR)</h5>
+                            <!-- <p>5 +100 + 500 mg SR</p>
+                                <p>5 + 100 + 1000 mg SR</p> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12 col-12">
+                <div class="division">
+                    <div class="box-data">
+                        <div class="text">
+                            <h5>Dapagliflozin + Teneligliptin</h5>
+                            <!-- <p>15+20 mg</p> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12 col-12">
+                <div class="division">
+                    <div class="box-data">
+                        <div class="text">
+                            <h5>Sitagliptin Phosphate Tablets IP</h5>
+                            <!-- <p>100 mg</p>
+                                <p>50 mg</p>
+                                <p>25 mg</p> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12 col-12">
+                <div class="division">
+                    <div class="box-data">
+                        <div class="text">
+                            <h5>Linagliptin + Metformin IR</h5>
+                            <!-- <p>2.5 + 500 mg</p>
+                                <p>2.5 + 1000 mg</p> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12 col-12">
+                <div class="division">
+                    <div class="box-data">
+                        <div class="text">
+                            <h5>Linagliptin IR</h5>
+                            <!-- <p>5mg</p> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12 col-12">
+                <div class="division">
+                    <div class="box-data">
+                        <div class="text">
+                            <h5>Metadoxine</h5>
+                            <!-- <p>500 mg</p> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-lg-3 col-md-6 col-sm-12 col-12">
+                <div class="division">
+                    <div class="box-data">
+                        <div class="text">
+                            <h5>Acotiamide SR</h5>
+                            <!-- <p>300 mg</p> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12 col-12">
+                <div class="division">
+                    <div class="box-data">
+                        <div class="text">
+                            <h5>Montelukast + levocetirizine </h5>
+                            <!-- <p>5 mg + 10mg </p>
+                                <p>2.5mg + 5 mg </p> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12 col-12">
+                <div class="division">
+                    <div class="box-data">
+                        <div class="text">
+                            <h5>Ivabradine </h5>
+                            <!-- <p>5 mg </p> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12 col-12">
+                <div class="division">
+                    <div class="box-data">
+                        <div class="text">
+                            <h5>Bilastine + Montelukast </h5>
+                            <!-- <p>20mg + 10mg </p> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12 col-12">
+                <div class="division">
+                    <div class="box-data">
+                        <div class="text">
+                            <h5>Apixaban</h5>
+                            <!-- <p>2.5 mg</p>
+                                <p>5 mg</p> -->
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12 col-12">
+                <div class="division">
+                    <div class="box-data">
+                        <div class="text">
+                            <h5>Rivaroxaban </h5>
+                            <!-- <p>2.5mg</p>
+                                <p>10 mg </p>
+                                <p>15 mg </p>
+                                <p>20 mg </p> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12 col-12">
+                <div class="division">
+                    <div class="box-data">
+                        <div class="text">
+                            <h5>Brivaracetam </h5>
+                            <!-- <p>10 mg </p>
+                                <p>25mg</p>
+                                <p>50 mg </p>
+                                <p>75 mg </p>
+                                <p>100 mg </p> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12 col-12">
+                <div class="division">
+                    <div class="box-data">
+                        <div class="text">
+                            <h5>Levetiracetam</h5>
+                            <!-- <p>250 mg </p>
+                                <p>750 mg </p>
+                                <p>500 mg </p>
+                                <p>1000 mg </p> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12 col-12">
+                <div class="division">
+                    <div class="box-data">
+                        <div class="text">
+                            <h5>Levetiracetam PR</h5>
+                            <!-- <p>1000 mg PR</p> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12 col-12">
+                <div class="division">
+                    <div class="box-data">
+                        <div class="text">
+                            <h5>Vortioxetine IR</h5>
+                            <!-- <p>5 mg </p>
+                                <p>10 mg </p>
+                                <p>20 mg </p> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12 col-12">
+                <div class="division">
+                    <div class="box-data">
+                        <div class="text">
+                            <h5>Tranylcypromine</h5>
+                            <!-- <p>10 mg </p> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12 col-12">
+                <div class="division">
+                    <div class="box-data">
+                        <div class="text">
+                            <h5>Perampanel</h5>
+                            <!-- <p>2 mg</p>
+                                <p>4 mg </p>
+                                <p>6 mg </p>
+                                <p>8 mg </p>
+                                <p>10 mg </p>
+                                <p> 12 mg</p> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12 col-12">
+                <div class="division">
+                    <div class="box-data">
+                        <div class="text">
+                            <h5>Itraconazole </h5>
+                            <!-- <p>100 mg </p>
+                                <p>200 mg </p> -->
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12 col-12">
+                <div class="division">
+                    <div class="box-data">
+                        <div class="text">
+                            <h5>Voriconazole </h5>
+                            <!-- <p>200mg </p> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12 col-12">
+                <div class="division">
+                    <div class="box-data">
+                        <div class="text">
+                            <h5>Cetirizine + Ambroxol </h5>
+                            <!-- <p>5mg + 60mg </p> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12 col-12">
+                <div class="division">
+                    <div class="box-data">
+                        <div class="text">
+                            <h5>Buclizine</h5>
+                            <!-- <p>25 mg</p> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12 col-12">
+                <div class="division">
+                    <div class="box-data">
+                        <div class="text">
+                            <h5>Levocetirizine Hydrochloride</h5>
+                            <!-- <p>5 mg</p> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12 col-12">
+                <div class="division">
+                    <div class="box-data">
+                        <div class="text">
+                            <h5>Bilastine </h5>
+                            <!-- <p>20 mg </p>
+                                <p>40 mg </p> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12 col-12">
+                <div class="division">
+                    <div class="box-data">
+                        <div class="text">
+                            <h5>Hydroxyzine Hydrochloride</h5>
+                            <!-- <p>10 mg </p>
+                                <p>25mg </p> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12 col-12">
+                <div class="division">
+                    <div class="box-data">
+                        <div class="text">
+                            <h5>Cetirizine Hydrochloride and Psuedoephedrine Hydrochloride</h5>
+                            <!-- <p>5 mg + 120 mg</p> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12 col-12">
+                <div class="division">
+                    <div class="box-data">
+                        <div class="text">
+                            <h5>Cetirizine</h5>
+                            <!-- <p>5 mg</p>
+                                <p>10 mg</p> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12 col-12">
+                <div class="division">
+                    <div class="box-data">
+                        <div class="text">
+                            <h5>Meclizine</h5>
+                            <!-- <p>25 mg</p> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12 col-12">
+                <div class="division">
+                    <div class="box-data">
+                        <div class="text">
+                            <h5>Citicholine 500mg </h5>
+                            <!-- <p>500mg </p> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12 col-12">
+                <div class="division">
+                    <div class="box-data">
+                        <div class="text">
+                            <h5>Citicholine 500mg + Piracetam 800mg </h5>
+                            <!-- <p>500mg + 800mg</p> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12 col-12">
+                <div class="division">
+                    <div class="box-data">
+                        <div class="text">
+                            <h5>HCQ</h5>
+                            <!-- <p>200mg </p>
+                                <p>300 mg</p>
+                                <p>400 mg </p> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12 col-12">
+                <div class="division">
+                    <div class="box-data">
+                        <div class="text">
+                            <h5>Ticagrelor </h5>
+                            <!-- <p>60 mg </p>
+                                <p>90 mg</p> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12 col-12">
+                <div class="division">
+                    <div class="box-data">
+                        <div class="text">
+                            <h5>Favipiravir </h5>
+                            <!-- <p>200 mg </p>
+                                <p>400 mg </p>
+                                <p>800 mg </p> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12 col-12">
+                <div class="division">
+                    <div class="box-data">
+                        <div class="text">
+                            <h5>Molnupiravir </h5>
+                            <!-- <p>200 mg </p> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12 col-12">
+                <div class="division">
+                    <div class="box-data">
+                        <div class="text">
+                            <h5>Piracetam </h5>
+                            <!-- <p>400 mg </p>
+                                <p>m800 mg </p>
+                                <p>1200mg</p> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12 col-12">
+                <div class="division">
+                    <div class="box-data">
+                        <div class="text">
+                            <h5>Sacubitril+ Valsartan physical powder Mixture IR</h5>
+                            <!-- <p>50 mg </p>
+                                <p>100 mg </p>
+                                <p>200 mg</p> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12 col-12">
+                <div class="division">
+                    <div class="box-data">
+                        <div class="text">
+                            <h5>Sacubitril+ Valsartan sodium complex IR </h5>
+                            <!-- <p>50 mg </p>
+                                <p>100 mg </p>
+                                <p>200 mg</p> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12 col-12">
+                <div class="division">
+                    <div class="box-data">
+                        <div class="text">
+                            <h5>Carvedilol</h5>
+                            <!-- <p>3.125 mg </p>
+                                <p>6.25 mg </p>
+                                <p>12.5 mg </p> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12 col-12">
+                <div class="division">
+                    <div class="box-data">
+                        <div class="text">
+                            <h5>Vit. C </h5>
+                            <!-- <p>500 mg </p> -->
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12 col-12">
+                <div class="division">
+                    <div class="box-data">
+                        <div class="text">
+                            <h5>Vit. C + Zinc </h5>
+                            <!-- <p>500 mg + 5 mg </p> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12 col-12">
+                <div class="division">
+                    <div class="box-data">
+                        <div class="text">
+                            <h5>Etoricoxib </h5>
+                            <!-- <p>60 mg </p>
+                                <p>90 mg</p>
+                                <p>120 mg </p> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12 col-12">
+                <div class="division">
+                    <div class="box-data">
+                        <div class="text">
+                            <h5>Bempedoic Acid + Atorvastatin</h5>
+                            <!-- <p>180 + 80 mg </p> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12 col-12">
+                <div class="division">
+                    <div class="box-data">
+                        <div class="text">
+                            <h5>Bempedoic Acid + Rosuvastatin</h5>
+                            <!-- <p>180 + 40 mg </p> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12 col-12">
+                <div class="division">
+                    <div class="box-data">
+                        <div class="text">
+                            <h5>Bempedoic Acid</h5>
+                            <!-- <p>180 mg </p> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    </div>
+</section>
+
+<section class="collaborate">
+    <div class="row py-4 coll-bg p-0">
+        <div class="col-lg-12">
+            <div class="head-title text-center">
+                <h1 class="text-capitalize"></h1>
+            </div>
+        </div>
+    </div>
+
+
+</section>
+
+
+</html>
+
+{% endblock %}

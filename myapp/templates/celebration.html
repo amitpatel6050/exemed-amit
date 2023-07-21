@@ -1,0 +1,448 @@
+{% extends 'header.html' %}
+{% load static %}
+{% block content %}
+
+
+<!DOCTYPE html>
+
+{% csrf_token %}
+
+
+
+<!-- celebration benner -->
+<section class="Celebration">
+    <div class="container py-5">
+        <div class="row py-5">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-auto text-center">
+                <p class="display-1 text-white">Celebration at our organization</p>
+                <p class="text-white fs-4 w-75 py-3 m-auto"> Exemed Pharmaceuticals employees enjoy the spree of
+                    festivities and never dither to take up challenges.</p>
+                <div class="fs-5 text-white"><a href="{% url 'index' %}" class="text-white">Home </a>
+                    <span class="fa-solid fa-angles-right fs-6"></span>
+                    Celebration
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+<!-- celebration pics -->
+<section class="CelebrationPics">
+    <div class="container py-5">
+        <div class="imageGal">
+            <div class="image1">
+                <img src="{% static 'images/gal2.jpg' %}" alt="" class="img-fluid">
+            </div>
+            <div class="image2">
+                <img src="{% static 'images/therapies2.jpg' %}" alt="" class="img-fluid">
+            </div>
+            <div class="image3">
+                <img src="{% static 'images/therapies3.jpg' %}" alt="" class="img-fluid">
+            </div>
+            <div class="image4">
+                <img src="{% static 'images/therapies4.jpg' %}" alt="" class="img-fluid">
+            </div>
+            <div class="image5">
+                <img src="{% static 'images/therapies5.jpg' %}" alt="" class="img-fluid">
+            </div>
+            <div class="image6">
+                <img src="{% static 'images/celebrate-luna.jpg' %}" alt="" class="img-fluid">
+            </div>
+            <div class="image7">
+                <img src="{% static 'images/celebration.JPG' %}" alt="" class="img-fluid">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- client Details -->
+<section class="clientSec">
+    <!-- cricket -->
+    <div class="container py-3 slider-move">
+        <div class="row py-5">
+            <div class="col-lg-5 col-md-8 col-sm-12 col-auto">
+                <div class="celebrate-slider">
+                    <div class="cel-img">
+                        <img src="{% static 'images/ganesh.jpg' %}" alt="" class="img-fluid">
+                    </div>
+
+                    <div class="cel-img">
+                        <img src="{% static 'images/ganesh-luna.jpeg' %}" alt="" class="img-fluid">
+                    </div>
+
+
+                    <div class="cel-img">
+                        <img src="{% static 'images/ganesh-vapi.jpg' %}" alt="" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-7 col-md-8 col-sm-12 col-auto">
+                <div class="content">
+                    <h1>Ganesh Chaturthi</h1>
+                    <p>Ganesh Chaturthi, also known as Vinayaka Chaturthi is a prominent Hindu festival, celebrated
+                        across the country with
+                        great devotion. The day marks the birth of Lord Ganesha, who is a symbol of wisdom,
+                        prosperity and good fortune.
+                        Besides praying for blessings and prosperity, we at Exemed take this opportunity to build an
+                        enthusiastic spirit of
+                        working with employees. The celebration helps to bring the staff together and boost their
+                        morale. This improves team
+                        working with a fresh mindset and keeps the office environment happy and spiritual.
+                        .</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- halls -->
+    <div class="container py-3 slider-move">
+        <div class="row py-5">
+            <div class="col-lg-7 col-md-8 col-sm-12 col-auto">
+                <div class="content">
+                    <h1>Town hall meetings</h1>
+                    <p>These are often the centerpiece of a company’s internal communication plan. They are
+                        leadership’s annual, quarterly or,
+                        sometimes more frequent, opportunity to talk with employees. At Exemed, Town hall meetings
+                        acts as a tool to convey the
+                        business results, priorities, future plans and strategies, and to recognize individual or
+                        team achievements.
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-5 col-md-8 col-sm-12 col-auto">
+                <div class="celebrate-slider">
+                    <div class="cel-img">
+                        <img src="{% static 'images/townhall.jpg' %}" alt="" class="img-fluid">
+                    </div>
+                    <div class="cel-img">
+                        <img src="{% static 'images/town-luna.jpeg' %}" alt="" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Republic day -->
+    <div class="container py-3 slider-move">
+        <div class="row py-5">
+            <div class="col-lg-5 col-md-8 col-sm-12 col-auto">
+                <div class="celebrate-slider">
+                    <div class="cel-img">
+                        <img src="{% static 'images/republic-luna.png' %}" alt="" class="img-fluid">
+                    </div>
+                    <div class="cel-img">
+                        <img src="{% static 'images/republic.jpg' %}" alt="" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-7 col-md-8 col-sm-12 col-auto">
+                <div class="content">
+                    <h1>Republic day</h1>
+                    <p>Decorating the office and cubicles, hoisting the tricolour flag, organising a quiz and
+                        Rangoli contest almost always
+                        fills the employees with enthusiasm. Decorating the office with colourful balloons, ribbons,
+                        rangolis, and other
+                        decorative elements, focusing on the tricolour of the Indian flag, would certainly swell
+                        things up with pride back at
+                        our office.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Garba -->
+    <div class="container py-3 slider-move">
+        <div class="row py-5">
+            <div class="col-lg-7 col-md-8 col-sm-12 col-auto">
+                <div class="content">
+                    <h1>Navratri and dusshera</h1>
+                    <p>It’s the celebration of good over evil, of being fearless, and epitomises determination and
+                        dedication, strength and
+                        courage in the avatars of Lord Durga. At Exemed, we organize a special Graba event with
+                        traditional Dandiya Ras to get a
+                        chance to see the dancing skills of our employees.</p>
+                </div>
+            </div>
+            <div class="col-lg-5 col-md-8 col-sm-12 col-auto">
+                <div class="celebrate-slider">
+                    <div class="cel-img">
+                        <img src="{% static 'images/garba-luna.png' %}" alt="" class="img-fluid">
+                    </div>
+                    <div class="cel-img">
+                        <img src="images/garba-luna2.png" alt="" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Diwali -->
+    <div class="container py-3 slider-move">
+        <div class="row py-5">
+            <div class="col-lg-5 col-md-8 col-sm-12 col-auto">
+                <div class="celebrate-slider">
+                    <div class="cel-img">
+                        <img src="images/diwali-luna.png" alt="" class="img-fluid">
+                    </div>
+                    <div class="cel-img">
+                        <img src="images/diwali-luna2.png" alt="" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-7 col-md-8 col-sm-12 col-auto">
+                <div class="content">
+                    <h1>Diwali Celebration</h1>
+                    <p>Diwali, a beautiful festival filled with lights, laughter, love, and positivity, is not only
+                        a festival but an emotion.
+                        A time that brings people closer, wherein colleagues become friends and friends become
+                        family. It’s an occasion of
+                        showering the wishes of “Happy Diwali ” and exchanging sweets with each other. Employees
+                        exchanging gifts helps boost
+                        the feelings of fellowship within the organization.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Women day -->
+    <div class="container py-3 slider-move">
+        <div class="row py-5">
+            <div class="col-lg-7 col-md-8 col-sm-12 col-auto">
+                <div class="content">
+                    <h1>Women’s day</h1>
+                    <p>To recognize and honor the contributions of all women in the workplace or outside the
+                        workplace, International Women's
+                        Day is celebrated each year. It is a global observance that celebrates women's social,
+                        economic, cultural, and political
+                        achievements. At Exemed, we celebrate this day to appreciate, reward and recognize the
+                        female employees for their hard
+                        work. The celebration includes various cultural activities, games and gifts followed by a
+                        lunch.</p>
+                </div>
+            </div>
+            <div class="col-lg-5 col-md-8 col-sm-12 col-auto">
+                <div class="celebrate-slider">
+                    <div class="cel-img">
+                        <img src="images/women.jpg" alt="" class="img-fluid">
+                    </div>
+                    <div class="cel-img">
+                        <img src="images/celebrate2.jpg" alt="" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Annual Day-->
+
+    <div class="container py-3 slider-move">
+        <div class="row py-5">
+            <div class="col-lg-5 col-md-8 col-sm-12 col-auto">
+                <div class="celebrate-slider">
+                    <div class="cel-img">
+                        <img src="images/annual.jpg" alt="" class="img-fluid">
+                    </div>
+                    <div class="cel-img">
+                        <img src="images/annual3.JPG" alt="" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-7 col-md-8 col-sm-12 col-auto">
+                <div class="content">
+                    <h1>Foundation day</h1>
+                    <p>Foundation day of the company is an essential milestone in past and future of the company and
+                        this is the cause of
+                        celebration. This day is the moment to remember the past, study present and enlighten
+                        future. It is also a chance to
+                        appreciate every pillar in the form of the employee who has stood the test of the time of
+                        hard times and given best to
+                        lead the company to its success.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- social responsibilities -->
+
+    <div class="container py-3 slider-move">
+        <div class="row py-5">
+            <div class="col-lg-7 col-md-8 col-sm-12 col-auto">
+                <div class="content">
+                    <h1>Corporate social responsibility</h1>
+                    <p>CSR takes many different shapes and forms but is ultimately about companies contributing
+                        positively to society and their
+                        stakeholders. is the idea that companies should invest positively in their workforce,
+                        community, and world. We undertake
+                        activities related to social causes and development, environment, disaster relief and
+                        community support.</p>
+                </div>
+            </div>
+            <div class="col-lg-5 col-md-8 col-sm-12 col-auto">
+                <div class="celebrate-slider">
+                    <div class="cel-img">
+                        <img src="images/social.jpg" alt="" class="img-fluid">
+                    </div>
+                    <div class="cel-img">
+                        <img src="images/csr1.jpg" alt="" class="img-fluid">
+                    </div>
+
+                    <div class="cel-img">
+                        <img src="images/csr2.jpg" alt="" class="img-fluid">
+                    </div>
+                    <!-- 
+                        <div class="cel-img">
+                            <img src="images/csr3.jpg" alt="" class="img-fluid">
+                        </div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- safety week -->
+
+    <div class="container py-3 slider-move">
+        <div class="row py-5">
+            <div class="col-lg-5 col-md-8 col-sm-12 col-auto">
+                <div class="celebrate-slider">
+                    <div class="cel-img">
+                        <img src="{% static 'images/safety.jpg' %}" alt="" class="img-fluid">
+                    </div>
+                    <div class="cel-img">
+                        <img src="{% static 'images/safety-luna.png' %}" alt="" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-7 col-md-8 col-sm-12 col-auto">
+                <div class="content">
+                    <h1>Safety Week</h1>
+                    <p>Safety week is celebrated to ensure that safety and health are integrated in work culture and
+                        life style. It also helps
+                        to renew the commitment of the employees towards safety and health at workplace. It starts
+                        with the administration of
+                        Safety & Health Pledge by the employees. Various activities like safety slogan and poster
+                        competition, demonstrations of
+                        firefighting and PPEs, training programs are conducted during this week</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Uttarayan celebration -->
+
+    <div class="container py-3 slider-move">
+        <div class="row py-5">
+            <div class="col-lg-7 col-md-8 col-sm-12 col-auto">
+                <div class="content">
+                    <h1>Uttarayan celebration</h1>
+                    <p>Celebrating festivals at office is nice concept to bring people close and enhance culture of
+                        the organisation. A day of
+                        flying kites, sweets and having a good time with your loved ones. We organize “Kite-flying”
+                        celebration. This is a
+                        festival of colorful kites, Authentic Gujarati Cuisines and lots of happiness.</p>
+                </div>
+            </div>
+            <div class="col-lg-5 col-md-8 col-sm-12 col-auto">
+                <div class="celebrate-slider">
+                    <div class="cel-img">
+                        <img src="images/kite.jpg" alt="" class="img-fluid">
+                    </div>
+                    <div class="cel-img">
+                        <img src="images/kite-luna.png" alt="" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</section>
+
+<!-- employee's facility -->
+<!-- <section class="emp-facility">
+        <div class="container py-5">
+            <div class="emp_title text-center">
+                <h1 class="text-white">Employee Friendly Facilities</h1>
+            </div>
+            <div class="emp-slider py-5">
+                <div class="emp_sliders">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="emp_block">
+                                <div class="emp_details">
+                                    <div class="circle_rotate"></div>
+                                    <div class="emp_details_block">
+                                        <h1 class="py-4">Gym & swimming pool</h1>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia ullam
+                                            placeat
+                                            eius
+                                            illum, debitis veniam, dolorem fugiat pariatur perspiciatis corrupti quidem
+                                            consequatur quaerat quo doloremque modi optio qui explicabo neque.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-8">
+                            <div class="emp_banner_img">
+                                <img src="images/bannerimage1.jpg" alt="" class="img-fluid">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="emp_sliders">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="emp_block">
+                                <div class="emp_details">
+                                    <div class="circle_rotate"></div>
+                                    <div class="emp_details_block">
+                                        <h1 class="py-4">Gym traininga</h1>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia ullam
+                                            placeat
+                                            eius
+                                            illum, debitis veniam, dolorem fugiat pariatur perspiciatis corrupti quidem
+                                            consequatur quaerat quo doloremque modi optio qui explicabo neque.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-8">
+                            <div class="emp_banner_img">
+                                <img src="images/bannerimage2.jpg" alt="" class="img-fluid">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="emp_sliders">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="emp_block">
+                                <div class="emp_details">
+                                    <div class="circle_rotate"></div>
+                                    <div class="emp_details_block">
+                                        <h1 class="py-4">trained swimmers</h1>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia ullam
+                                            placeat
+                                            eius
+                                            illum, debitis veniam, dolorem fugiat pariatur perspiciatis corrupti quidem
+                                            consequatur quaerat quo doloremque modi optio qui explicabo neque.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-8">
+                            <div class="emp_banner_img">
+                                <img src="images/bannerimage3.jpg" alt="" class="img-fluid">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+<!-- footer -->
+
+
+</html>
+
+{% endblock %}

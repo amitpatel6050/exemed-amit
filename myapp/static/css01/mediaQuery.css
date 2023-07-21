@@ -1,0 +1,715 @@
+@media (max-width:576px) {
+    .main-header .main-menu {
+        display: none;
+    }
+
+    .main-header .menu-btn {
+        padding-right: 0;
+    }
+
+    .main-header .header-val .image {
+        width: 50%;
+    }
+
+    .main-header .header-val img {
+        width: 80%;
+    }
+
+    .nav-menu .set-menus-show {
+        width: 500px;
+    }
+
+    .nav-menu .set-menus ul {
+        text-align: right;
+        padding-right: 50px;
+    }
+
+    .nav-menu .slide-image-front {
+        right: 0;
+    }
+
+    .main-header .search-btn {
+        padding-right: 50px;
+    }
+
+    .main-header .search-btn a {
+        color: white;
+        display: block;
+    }
+
+    /* ==========  home banner ========== */
+    .HomePage .banner-img1 {
+        border-radius: 0;
+        height: 400px;
+        border-left: none;
+        border-bottom: none;
+    }
+
+    .HomePage .banner-img2 {
+        border-radius: 0;
+        height: 400px;
+        border-left: none;
+        border-bottom: none;
+    }
+
+    .HomePage .banner-img3 {
+        border-radius: 0;
+        height: 400px;
+        border-left: none;
+        border-bottom: none;
+    }
+
+    .HomePage .banner-img4 {
+        border-radius: 0;
+        height: 400px;
+        border-left: none;
+        border-bottom: none;
+    }
+
+    .HomePage .banner-img5 {
+        border-radius: 0;
+        height: 400px;
+        border-left: none;
+        border-bottom: none;
+    }
+
+    .HomePage .banner-cont {
+        padding: 150px 40px;
+        color: white;
+    }
+
+    .HomePage .banner {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .about-company .director-grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .moveContent .moveText svg text {
+        font-size: 26px;
+    }
+
+    /* =============== celebration page ============== */
+    .emp-facility .emp_sliders {
+        position: static;
+    }
+
+    .emp-facility .row {
+        flex-direction: column-reverse;
+    }
+
+    .emp-facility .emp_sliders .emp_block {
+        position: static;
+    }
+
+    .emp-facility .emp_details {
+        width: 100%;
+        border-top-left-radius: 0;
+    }
+
+    .emp-facility img {
+        border-top-right-radius: 0;
+    }
+
+    .CelebrationPics .imageGal {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .CelebrationPics .imageGal .image1 {
+        grid-row: auto;
+    }
+
+    .CelebrationPics .imageGal .image7 {
+        grid-column: auto;
+    }
+
+    .about-company .about_title_main p {
+        width: 100%;
+    }
+
+    /* ======================= career page ============ */
+    .career-grow .car-head {
+        display: flex;
+        gap: 10px;
+    }
+
+    /* ============ about page ==============*/
+    .Location .location_area .circle_move1 {
+        height: 240px;
+        left: 15px;
+    }
+
+    .Location .location_area .circle_move2 {
+        height: 240px;
+        left: 15px;
+    }
+
+    .about-company .history-data p {
+        width: 100%;
+    }
+
+    .sidelines::before {
+        content: "";
+        width: 60px;
+    }
+
+    .sidelines::after {
+        content: "";
+        width: 60px;
+    }
+
+    .goal-ar-awards .countsup {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .goal-ar-awards .goal-ab-pharma {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .expertise .goal-ab-pharma.goalpharma {
+        width: 95%;
+    }
+
+    .goal_ar .img-content p {
+        width: 100%;
+    }
+
+    .goal_ar .image-slider1 {
+        padding-top: 100px;
+    }
+
+    .goal_ar .image-slider2 {
+        padding-top: 100px;
+    }
+
+    .therapies_details .gridbox-images {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .therapies_details .gridbox-images img {
+        height: 130px;
+        width: 180px;
+    }
+}
+
+/* ================================================================================================================================= */
+@media (min-width:576px) {
+    .main-header .main-menu {
+        display: none;
+    }
+
+    .main-header .menu-btn {
+        padding-right: 0;
+    }
+
+    .main-header .header-val .image {
+        width: 40%;
+    }
+
+    .main-header .header-val img {
+        width: 100%;
+    }
+
+    .nav-menu .set-menus-show {
+        width: 300px;
+    }
+
+    .nav-menu .set-menus ul {
+        text-align: right;
+        padding-right: 80px;
+    }
+
+    .nav-menu .slide-image-front {
+        right: 350px;
+    }
+
+    .main-header .search-btn {
+        padding-right: 50px;
+    }
+
+    .main-header .search-btn a {
+        color: white;
+        display: block;
+    }
+
+
+    /* ==========  home banner ========== */
+    .HomePage .banner-img1 {
+        border-radius: 0;
+        height: 400px;
+        border-left: none;
+        border-bottom: none;
+    }
+
+    .HomePage .banner-img2 {
+        border-radius: 0;
+        height: 400px;
+        border-left: none;
+        border-bottom: none;
+    }
+
+    .HomePage .banner-img3 {
+        border-radius: 0;
+        height: 400px;
+        border-left: none;
+        border-bottom: none;
+    }
+
+    .HomePage .banner-img4 {
+        border-radius: 0;
+        height: 400px;
+        border-left: none;
+        border-bottom: none;
+    }
+
+    .HomePage .banner-img5 {
+        border-radius: 0;
+        height: 400px;
+        border-left: none;
+        border-bottom: none;
+    }
+
+    .HomePage .banner-cont {
+        padding: 150px 40px;
+        color: white;
+    }
+
+    .HomePage .banner {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .about-company .director-grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .moveContent .moveText svg text {
+        font-size: 30px;
+    }
+
+    /* =============== celebration page ============== */
+    .emp-facility .emp_sliders {
+        position: static;
+    }
+
+    .emp-facility .row {
+        flex-direction: column-reverse;
+    }
+
+    .emp-facility .emp_sliders .emp_block {
+        position: static;
+    }
+
+    .emp-facility .emp_details {
+        width: 100%;
+        border-top-left-radius: 0;
+    }
+
+    .emp-facility img {
+        border-top-right-radius: 0;
+    }
+
+    .CelebrationPics .imageGal {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .CelebrationPics .imageGal .image1 {
+        grid-row: 1 / span 2;
+    }
+
+    .CelebrationPics .imageGal .image7 {
+        grid-column: 2 / span 2;
+    }
+
+    .about-company .history-data p {
+        width: 100%;
+    }
+
+    .goal-ar-awards .countsup {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .goal-ar-awards .goal-ab-pharma {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .about-company .about_title_main p {
+        width: 100%;
+    }
+
+    .expertise .goal-ab-pharma.goalpharma {
+        width: 95%;
+    }
+
+    .goal_ar .img-content p {
+        width: 100%;
+    }
+
+    .goal_ar .image-slider1 {
+        padding-top: 100px;
+    }
+
+    .goal_ar .image-slider2 {
+        padding-top: 100px;
+    }
+
+    .therapies_details .gridbox-images {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .therapies_details .gridbox-images img {
+        height: 180px;
+        width: 250px;
+    }
+}
+
+/* ================================================================================================================================== */
+@media (min-width:768px) {
+    .main-header .main-menu {
+        display: none;
+    }
+
+    .main-header .menu-btn {
+        padding-right: 0;
+    }
+
+    .main-header .header-val .image {
+        width: 40%;
+    }
+
+    .main-header .header-val img {
+        width: 50%;
+    }
+
+    .nav-menu .set-menus-show {
+        width: 400px;
+    }
+
+    .nav-menu .set-menus ul {
+        text-align: left;
+        padding-left: 50px;
+    }
+
+    .nav-menu .slide-image-front {
+        right: 438px;
+    }
+
+    .main-header .search-btn {
+        padding-right: 50px;
+    }
+
+    .main-header .search-btn a {
+        color: white;
+        display: block;
+    }
+
+    .moveContent .moveText svg text {
+        font-size: 40px;
+    }
+
+    /* =============== celebration page ============== */
+    .emp-facility .emp_sliders {
+        position: relative;
+    }
+
+    .emp-facility .row {
+        flex-direction: row;
+    }
+
+    .emp-facility .emp_sliders .emp_block {
+        position: absolute;
+        left: 0;
+        top: 70px;
+        bottom: 0;
+    }
+
+    .emp-facility .emp_details {
+        width: 376px;
+        border-top-left-radius: 140px;
+    }
+
+    .emp-facility img {
+        border-top-right-radius: 140px;
+    }
+
+    .about-company .director-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .goal-ar-awards .countsup {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .goal-ar-awards .count_val:nth-child(2) {
+        grid-row: 2 / span 1;
+        grid-column: 1/ span 2;
+    }
+
+    .therapies_details .gridbox-images {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .therapies_details .gridbox-images img {
+        height: 154px;
+        width: 222px;
+    }
+
+    /* =============== career page ============= */
+
+
+}
+
+/* ==================================================================================================================================== */
+@media (min-width:992px) {
+    .main-header .main-menu {
+        display: block;
+    }
+
+    .main-header .menu-btn {
+        padding-right: 0;
+    }
+
+    .nav-menu .set-menus-show {
+        width: 400px;
+    }
+
+    .nav-menu .set-menus ul {
+        text-align: left;
+        padding-left: 50px;
+    }
+
+    .nav-menu .slide-image-front {
+        right: 540px;
+    }
+
+    .main-header .search-btn a {
+        color: white;
+        display: none;
+    }
+
+    .main-header .header-val .image {
+        width: 100%;
+    }
+
+    .main-header .header-val img {
+        width: 80%;
+    }
+
+    .about-company .history-data p {
+        width: 100%;
+    }
+
+    /* ==========  home banner ========== */
+    .HomePage .banner-img1 {
+        border-radius: 50% 0 0 50%;
+        height: 480px;
+        border-left: 40px solid #0000005b;
+        border-bottom: 5px solid #0000005b;
+    }
+
+    .HomePage .banner-img2 {
+        border-radius: 50% 0 0 50%;
+        height: 480px;
+        border-left: 40px solid #0000005b;
+        border-bottom: 5px solid #0000005b;
+    }
+
+    .HomePage .banner-img3 {
+        border-radius: 50% 0 0 50%;
+        height: 480px;
+        border-left: 40px solid #0000005b;
+        border-bottom: 5px solid #0000005b;
+    }
+
+    .HomePage .banner-img4 {
+        border-radius: 50% 0 0 50%;
+        height: 480px;
+        border-left: 40px solid #0000005b;
+        border-bottom: 5px solid #0000005b;
+    }
+
+    .HomePage .banner-img5 {
+        border-radius: 50% 0 0 50%;
+        height: 480px;
+        border-left: 40px solid #0000005b;
+        border-bottom: 5px solid #0000005b;
+    }
+
+    .HomePage .banner-cont {
+        padding: 180px 40px;
+        color: white;
+    }
+
+    .HomePage .banner {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .HomePage .shape {
+        bottom: -10px;
+    }
+
+    .moveContent .moveText svg text {
+        font-size: 38px;
+    }
+
+    /* ================ celebration page ========== */
+    .emp-facility .emp_sliders .emp_block {
+        position: absolute;
+        left: 113px;
+        top: 70px;
+    }
+
+    .CelebrationPics .imageGal {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .goal-ar-awards .countsup {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .goal-ar-awards .count_val:nth-child(2) {
+        grid-row: unset;
+        grid-column: unset;
+    }
+
+    .expertise .goal-ab-pharma.goalpharma {
+        width: 70%;
+    }
+
+    .goal_ar .img-content p {
+        width: 70%;
+    }
+
+    .goal_ar .image-slider1 {
+        padding-top: 150px;
+    }
+
+    .goal_ar .image-slider2 {
+        padding-top: 150px;
+    }
+
+    .therapies_details .gridbox-images img {
+        height: 200px;
+        width: 296px;
+    }
+
+    /* =============== career page ============= */
+}
+
+/* =================================================================================================================================== */
+@media (min-width:1200px) {
+
+    /* ==========  home banner ========== */
+    .HomePage .banner-img1 {
+        height: 550px;
+    }
+
+    .HomePage .banner-img2 {
+        height: 550px;
+    }
+
+    .HomePage .banner-img3 {
+        height: 550px;
+    }
+
+    .HomePage .banner-img4 {
+        height: 550px;
+    }
+
+    .HomePage .banner-img5 {
+        height: 550px;
+    }
+
+    .HomePage .banner-cont {
+        padding: 180px 40px;
+        color: white;
+    }
+
+    .HomePage .shape {
+        bottom: 0px;
+    }
+
+    .moveContent .moveText svg text {
+        font-size: 45px;
+    }
+
+    .about-company .about_title_main p {
+        width: 70%;
+    }
+
+    .expertise .goal-ab-pharma.goalpharma {
+        width: 50%;
+    }
+
+    .goal_ar .img-content p {
+        width: 50%;
+    }
+
+    .goal_ar .image-slider1 {
+        padding-top: 200px;
+    }
+
+    .goal_ar .image-slider2 {
+        padding-top: 200px;
+    }
+
+    .therapies_details .gridbox-images img {
+        height: 211px;
+        width: 312px;
+    }
+}
+
+/* ================================================================================================================================ */
+@media (min-width:1400px) {
+
+    /* ==========  home banner ========== */
+    .HomePage .banner-img1 {
+        height: 650px;
+    }
+
+    .HomePage .banner-img2 {
+        height: 650px;
+    }
+
+    .HomePage .banner-img3 {
+        height: 650px;
+    }
+
+    .HomePage .banner-img4 {
+        height: 650px;
+    }
+
+    .HomePage .banner-img5 {
+        height: 650px;
+    }
+
+    .HomePage .banner-cont {
+        padding: 250px 40px;
+        color: white;
+    }
+
+    .HomePage .shape {
+        bottom: -15px;
+    }
+
+    .moveContent .moveText svg text {
+        font-size: 50px;
+    }
+
+    .therapies_details .gridbox-images {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+}

@@ -1,0 +1,154 @@
+{% extends 'header.html' %}
+{% load static %}
+{% block content %}
+
+<!DOCTYPE html>
+
+{% csrf_token %}
+
+<!-- therapies homepage -->
+<section class="therapies">
+    <div class="container py-5">
+        <div class="row py-5">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-auto text-center">
+                <p class="display-1 text-white">Our Therapies</p>
+                <p class="text-white fs-4 w-75 py-3 m-auto"> Well equipped manufacturing facilities to produce
+                    pharmaceutical formulations in almost all dosage forms & therapeutic
+                    segments to cater to medicinal requirements across the globe.</p>
+                <div class="fs-5 text-white"><a href="{% url 'index' %}" class="text-white">Home </a>
+                    <span class="fa-solid fa-angles-right fs-6"></span>
+                    Therapies
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- therapies all images divider -->
+<section class="collaborate">
+    <div class="row py-4 coll-bg p-0">
+        <div class="col-lg-12">
+            <div class="head-title text-center">
+                <h1 class="text-capitalize"></h1>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- therapies images -->
+    <section class="therapies_details">
+        <div class="container py-5">
+            <div class="gridbox-images">
+                <div class="thep-image">
+                    <h2>Anti-diabetic</h2><br>
+                    <img src="{% static 'images/Anti-diabetic.jpg'%}" alt="" class="">
+                </div>
+                <div class="thep-image">
+                    <h2>Alcohol Intoxication</h2><br>
+                    <img src="{% static 'images/Alcohol Intoxication.jpg'%}" alt="" class="">
+                </div>
+                <div class="thep-image">
+                    <h2>Gastroprokinetics</h2><br>
+                    <img src="{% static 'images/gastroprokinetics.jpg'%}" alt="" class="">
+                </div>
+                <div class="thep-image">
+                    <h2>Anti-Allergic</h2><br>
+                    <img src="{% static 'images/Anti-Allergic.jpg'%}" alt="" class="">
+                </div>
+                <div class="thep-image">
+                    <h2>Antiarthmetic</h2><br>
+                    <img src="{% static 'images/Antiarthmetic.jpg'%}" alt="" class="">
+                </div>
+                <div class="thep-image">
+                    <h2>Anti-Asthmatic</h2><br>
+                    <img src="{% static 'images/Anti-Asthmatic.jpg'%}" alt="" class="">
+                </div>
+                <div class="thep-image">
+                    <h2>Anti-coagulant</h2><br>
+                    <img src="{% static 'images/Anti-coagulant.jpg'%}" alt="" class="">
+                </div>
+                <div class="thep-image">
+                    <h2>Anti-convulsant</h2><br>
+                    <img src="{% static 'images/Anti-convulsant.jpg'%}" alt="" class="">
+                </div>
+                <div class="thep-image">
+                    <h2>Anti-depressant</h2><br>
+                    <img src="{% static 'images/Anti-depressant.jpg'%}" alt="" class="">
+                </div>
+
+                <div class="thep-image">
+                    <h2>Anti-epileptic</h2><br>
+                    <img src="{% static 'images/Anti-epilptic.jpg'%}" alt="" class="">
+                </div>
+
+                <div class="thep-image">
+                    <h2>Anti-Fungal</h2><br>
+                    <img src="{% static 'images/Anti-Fungal.jpg'%}" alt="" class="">
+                </div>
+
+                <div class="thep-image">
+                    <h2>Anti-histaminic</h2><br>
+                    <img src="{% static 'images/Anti-histaminic.jpg'%}" alt="" class="">
+                </div>
+
+                <div class="thep-image">
+                    <h2>Nootropics</h2><br>
+                    <img src="{% static 'images/Nootropics.jpg'%}" alt="" class="">
+                </div>
+
+                <div class="thep-image">
+                    <h2>Anti-Malarial</h2><br>
+                    <img src="{% static 'images/Anti-Malarial.jpg'%}" alt="" class="">
+                </div>
+
+                <div class="thep-image">
+                    <h2>Anti-Platelet</h2><br>
+                    <img src="{% static ''%}images/Anti-Platelet.jpg" alt="" class="">
+                </div>
+
+                <div class="thep-image">
+                    <h2>Antiviral</h2><br>
+                    <img src="{% static 'images/Antiviral.jpg'%}" alt="" class="">
+                </div>
+
+                <div class="thep-image">
+                    <h2>Antilipemics</h2><br>
+                    <img src="{% static 'images/Antilipemics.jpg'%}" alt="" class="">
+                </div>
+
+                <div class="thep-image">
+                    <h2>NSAIDS</h2><br>
+                    <img src="{% static 'images/NSAIDS.jpg'%}" alt="" class="">
+                </div>
+
+                <div class="thep-image">
+                    <h2>Nutri-Supplements</h2><br>
+                    <img src="{% static 'images/Nutri-Supplements.jpg'%}" alt="" class="">
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+    <!-- therapies all images divider -->
+    <section class="collaborate">
+        <div class="row py-4 coll-bg p-0">
+            <div class="col-lg-12">
+                <div class="head-title text-center">
+                    <h1 class="text-capitalize"></h1>
+                </div>
+            </div>
+        </div>
+        <!-- footer -->
+
+
+        <!-- script -->
+        <script src="{% static 'js/script.js' %}"></script>
+        <!-- jquery cdn -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <!-- bootstrap js cdn -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+
+        </html>
+
+        {% endblock %}

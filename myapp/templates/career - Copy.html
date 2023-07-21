@@ -1,0 +1,682 @@
+{% extends 'header.html' %}
+{% load static %}
+{% block content %}
+
+
+<!DOCTYPE html>
+
+{% csrf_token %}
+
+<!-- homepage benner -->
+<section class="careerSec">
+    <div class="container pb-5">
+        <div class="row py-5 careerDetails">
+            <div class="col-lg-6 col-md-12 col-sm-12 col-auto">
+                <img src="images/careerImage.jpg" alt="" class="img-fluid">
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12 col-auto text-center pt-5">
+                <p class="display-1 text-white main_head">Grow with us</p>
+                <p class="text-white fs-4 w-75 py-3 m-auto"> We are one of the global leading pharmaceutical
+                    companies in India, and working with it brings a tremendous opportunity
+                    to create a lasting impact on global health.</p>
+                <div class="fs-5 text-white"><a href="index.html" class="text-white">Home </a>
+                    <span class="fa-solid fa-angles-right fs-6"></span>
+                    Career
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- career grow  -->
+<section class="career-grow">
+    <div class="container py-5">
+        <div class="list-group" id="list-tab" role="tablist">
+            <div class="row text-center py-5 car-head">
+                <div class="col-lg-2 col-md-2 col-sm-2 col-auto">
+                    <a class="list-group-item list-group-item-action active" id="list-Ccap-list" data-bs-toggle="list"
+                        href="#list-Ccap" role="tab" aria-controls="list-Ccap">C</a>
+                </div>
+                <div class="col-lg-2 col-md-2 col-sm-2 col-auto">
+                    <a class="list-group-item list-group-item-action" id="list-Acap-list" data-bs-toggle="list"
+                        href="#list-Acap" role="tab" aria-controls="list-profile">A</a>
+                </div>
+                <div class="col-lg-2 col-md-2 col-sm-2 col-auto">
+                    <a class="list-group-item list-group-item-action" id="list-Rcap-list" data-bs-toggle="list"
+                        href="#list-Rcap" role="tab" aria-controls="list-messages">R</a>
+                </div>
+                <div class="col-lg-2 col-md-2 col-sm-2 col-auto">
+                    <a class="list-group-item list-group-item-action" id="list-Ecap1-list" data-bs-toggle="list"
+                        href="#list-Ecap1" role="tab" aria-controls="list-settings">E</a>
+                </div>
+                <div class="col-lg-2 col-md-2 col-sm-2 col-auto">
+                    <a class="list-group-item list-group-item-action" id="list-Ecap2-list" data-bs-toggle="list"
+                        href="#list-Ecap2" role="tab" aria-controls="list-settings">E</a>
+                </div>
+                <div class="col-lg-2 col-md-2 col-sm-2 col-auto">
+                    <a class="list-group-item list-group-item-action" id="list-Rcap2-list" data-bs-toggle="list"
+                        href="#list-Rcap2" role="tab" aria-controls="list-settings">R</a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-auto">
+                    <div class="tab-content" id="nav-tabContent">
+                        <div class="tab-pane fade show active" id="list-Ccap" role="tabpanel"
+                            aria-labelledby="list-Ccap-list">
+                            <div class="row d-flex align-items-center">
+                                <div class="col-lg-6 col-md-6 col-sm-12 col-auto">
+                                    C: Creativity: Creativity is the act of turning new and imaginative ideas into
+                                    reality. At Exemed, we provide an
+                                    environment which motivates people to be creative to generate new ideas, new
+                                    alternatives, simple solutions to the
+                                    problems and new possibilities.
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-12 col-auto">
+                                    <img src="images/career-c.png" alt="" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="list-Acap" role="tabpanel" aria-labelledby="list-Acap-list">
+                            <div class="row d-flex align-items-center">
+                                <div class="col-lg-6 col-md-6 col-sm-12 col-auto">
+                                    A: Appreciation: Appreciation generally means “recognition and enjoyment of the
+                                    good qualities of someone or something.
+                                    Appreciation plays a key role in creating a positive organisational culture and
+                                    strengthening employee-leader
+                                    relationships. It improves productivity, workplace morale, increases employee
+                                    engagement and dedication and also helps
+                                    build staff loyalty. At Exemed, we appreciate all activities which helps to
+                                    improve organisation culture and growth.
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-12 col-auto">
+                                    <img src="images/career-a.png" alt="" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="list-Rcap" role="tabpanel" aria-labelledby="list-messages-list">
+                            <div class="row d-flex align-items-center">
+                                <div class="col-lg-6 col-md-6 col-sm-12 col-auto">
+                                    R: Rewarding: Employee rewards and recognition have become a critical component
+                                    of every successful organisation.
+                                    Acknowledging and rewarding employees for their good deed inspires them to keep
+                                    getting better and binds them to greater
+                                    goals. At Exemed, we recognise the hard work and reward it to motivate our
+                                    people to set bigger goals.
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-12 col-auto">
+                                    <img src="images/career-r.png" alt="" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="list-Ecap1" role="tabpanel" aria-labelledby="list-settings-list">
+                            <div class="row d-flex align-items-center">
+                                <div class="col-lg-6 col-md-6 col-sm-12 col-auto">
+                                    E: Education: From conferences to training courses, on the organizational level,
+                                    employee education always results into
+                                    the more skilled and educated people. This helps the business to perform better
+                                    in terms of revenue and profitability.
+                                    At Exemed we provide our people with access to learning opportunities that
+                                    develop skills, grow their knowledge and
+                                    advance their careers.
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-12 col-auto">
+                                    <img src="images/career-e.png" alt="" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="list-Ecap2" role="tabpanel" aria-labelledby="list-settings-list">
+                            <div class="row d-flex align-items-center">
+                                <div class="col-lg-6 col-md-6 col-sm-12 col-auto">
+                                    E: Encouragement: Encouragement is essential for employees to feel valued and
+                                    engaged in the workplace. We at Exemed
+                                    encourage, affirm, recognize and value our team members by providing positive
+                                    work culture, focusing on individuals,
+                                    celebrating the success and team building activities.
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-12 col-auto">
+                                    <img src="images/career-e2.png" alt="" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="list-Rcap2" role="tabpanel" aria-labelledby="list-settings-list">
+                            <div class="row d-flex align-items-center">
+                                <div class="col-lg-6 col-md-6 col-sm-12 col-auto">
+                                    R: Reinforcement: Positive reinforcement involves recognizing and rewarding
+                                    desirable actions to encourage employees to
+                                    keep performing those actions. We believe in positive reinforcement which will
+                                    lead to continued high levels of
+                                    achievement.
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-12 col-auto">
+                                    <img src="images/career-r2.png" alt="" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</section>
+
+<!-- rewards -->
+<section class="reward-recog">
+    <div class="container py-5">
+        <!-- <div class="row pb-5">
+                <div class="col-lg-12 text-center">
+                    <h1 class="text-capitalize mainhead">Grow your career</h1>
+                </div>
+            </div>
+            <div class="row py-5">
+                <div class="col-lg-4 col-md-6 col-sm-12 col-auto">
+                    <div class="reward-img">
+                        <div class="rev-img">
+                            <img src="images/gal5.jpg" alt="" class="img-fluid">
+                            <div class="reward-img-overlay">
+                                <h4>Lorem ipsum dolor</h4>
+                            </div>
+                        </div>
+                        <p class="p-4">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia, voluptatem consequuntur?
+                            Reiciendis ea exercitationem sunt quo explicabo quibusdam minima quam nisi magnam. Eum
+                            maxime ratione impedit placeat beatae eveniet modi.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 col-auto">
+                    <div class="reward-img">
+                        <div class="rev-img">
+                            <img src="images/gal5.jpg" alt="" class="img-fluid">
+                            <div class="reward-img-overlay">
+                                <h4>Lorem ipsum dolor</h4>
+                            </div>
+                        </div>
+                        <p class="p-4">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia, voluptatem consequuntur?
+                            Reiciendis ea exercitationem sunt quo explicabo quibusdam minima quam nisi magnam. Eum
+                            maxime ratione impedit placeat beatae eveniet modi.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 col-auto">
+                    <div class="reward-img">
+                        <div class="rev-img">
+                            <img src="images/gal5.jpg" alt="" class="img-fluid">
+                            <div class="reward-img-overlay">
+                                <h4>Lorem ipsum dolor</h4>
+                            </div>
+                        </div>
+                        <p class="p-4">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia, voluptatem consequuntur?
+                            Reiciendis ea exercitationem sunt quo explicabo quibusdam minima quam nisi magnam. Eum
+                            maxime ratione impedit placeat beatae eveniet modi.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+        <div class="container-fluid">
+            <div class="row py-5 reward-bg">
+                <div class="col-lg-4 col-md-4 col-sm-12 col-auto text-center p-5">
+                    <h1>Rewards and Recoganition</h1>
+                </div>
+                <div class="col-lg-8 col-md-8 col-sm-12 col-auto px-5">
+                    <p>
+                        Pat on the back is an initiative taken by the Human Resources Team to appreciate Zydans who
+                        perform exceptionally well in their domain. Pat on the Back is given to Zydans who take up
+                        additional responsibilities willingly and flawlessly execute the same. It highlights the
+                        efforts
+                        of Zydans who come up with new initiatives which contributes not only to their respective
+                        teams
+                        but also to the entire Zydus Healthcare Limited.
+                    </p>
+                    <p>
+                        Zydus Healthcare Limited recognizes such individuals with a ‘Pat on the Back’ award & Gift
+                        vouchers quarterly as a small token of appreciation. This reward, in turn, makes every
+                        recipient
+                        feel valued for his/her services to the Zydus Healthcare Limited, and that is truly
+                        priceless.
+                    </p>
+                </div>
+            </div>
+        </div>
+</section>
+
+<!-- success story -->
+<section class="success-story">
+    <div class="container py-5">
+        <div class="row pb-5">
+            <div class="col-lg-12 text-center">
+                <h1 class="text-capitalize mainhead">Success story</h1>
+            </div>
+        </div>
+        <div class="accordion" id="success_story_list">
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        <div class="biography">
+                            <div class="img">
+                                <img src="images/manish_sir.jpg" alt="">
+                            </div>
+                            <div class="bio-info">
+                                <h3>Mr. Manish Upadhyay </h3>
+                                <p>GM - Site </p>
+                            </div>
+                        </div>
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#success_story_list">
+                    <div class="accordion-body">
+                        <strong>I joined Exemed Pharmaceuticals in Dec 2016</strong> one of the most delightful and
+                        challenging journey, I had in my entire career. Exemed is the company, where you always
+                        got change to showcase your talent, and all such efforts always got recognized. Also,
+                        Exposure to many new areas gave
+                        new wings to my career. I am also thankful and lucky to have such talented colleagues.
+                        Starting of monthly bulletin is
+                        really nice step of give glimpse of activities done during a month. Keep it up and best of
+                        luck.
+                        <!-- <code>.accordion-body</code>, though the transition does limit overflow. -->
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        <div class="biography">
+                            <div class="img">
+                                <img src="images/sunil_sir.jpg" alt="">
+                            </div>
+                            <div class="bio-info">
+                                <h3>Mr. Sunil Mirajkar </h3>
+                                <p>AVP – R&D </p>
+                            </div>
+                        </div>
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#success_story_list">
+                    <div class="accordion-body">
+                        <strong>I joined Exemed Pharmaceuticals in April 2020.</strong> It makes me feel proud to be
+                        part
+                        of this super talented and enthusiastic team. At Exemed, I understood how speed and
+                        quality can be combined to achieve desired goals. I am thankful for the vast exposure I am
+                        getting here while working on
+                        different products. It is indeed a great feeling to see your new products helping India to
+                        be healthier. I always
+                        believe in “Never interrupt someone doing something you said couldn't be done.”
+                        <!-- <code>.accordion-body</code>, though the transition does limit overflow. -->
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        <div class="biography">
+                            <div class="img">
+                                <img src="images/vasant_sir.jpg" alt="">
+                            </div>
+                            <div class="bio-info">
+                                <h3>Mr. Vasant Patel</h3>
+                                <p>AGM – Manufacturing</p>
+                            </div>
+                        </div>
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#success_story_list">
+                    <div class="accordion-body">
+                        <strong>I joined Exemed Pharmaceuticals in Feb 1996.</strong> “Be courageous. Challenge
+                        orthodoxy. Stand up for what you believe in. When you are in your rocking chair talking to
+                        your subordinate many years from now, be sure you have a good expedition to tell.”
+
+                        Exemed Pharmaceuticals and everyone’s presences mean a lot to me. A lot of effort and
+                        determination has gone into
+                        establishing the company. I feel like there has never been a dull moment since the creation
+                        of this beautiful
+                        environment. Every day I feel blessed to have something that we have created, and I am proud
+                        of.
+
+                        I truly believe and wish that we can continue to grow and cherish what we have at present
+                        with help from all of you.
+                        There would be more obstacles in the future, but I am sure we would overcome them with our
+                        intellect and perseverance.
+                        The sheer number of people who have helped me create this great organization is innumerable,
+                        and I am glad for each one
+                        of their existence.
+
+                        <!-- <code>.accordion-body</code>, though the transition does limit overflow. -->
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                        <div class="biography">
+                            <div class="img">
+                                <img src="images/devendra_singh.jpg" alt="">
+                            </div>
+                            <div class="bio-info">
+                                <h3>Mr. Devendra Singh</h3>
+                                <p>DGM - BD</p>
+                            </div>
+                        </div>
+                    </button>
+                </h2>
+                <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#success_story_list">
+                    <div class="accordion-body">
+                        <strong>I joined Exemed Pharmaceuticals in Aug 2018.</strong> Thomas Edison said,
+                        “Opportunity is
+                        missed by most people because it is dressed in overalls and looks like work.”
+                         
+                        I truly believe that work shouldn’t feel like work. Your work is going to fill a large part
+                        of your life, and the only
+                        way to be truly satisfied is to do what you believe is great work. And the only way to do
+                        great work is to love what you
+                        do. It’s a matter of pride for me to be part of such an inspiring team. With team members
+                        like you, nothing is
+                        impossible. Thank you for being the heart & soul of our Exemed Family.
+
+                        <!-- <code>.accordion-body</code>, though the transition does limit overflow. -->
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                        <div class="biography">
+                            <div class="img">
+                                <img src="images/devendrass_singh.jpg" alt="">
+                            </div>
+                            <div class="bio-info">
+                                <h3>Mr. Luna Plant </h3>
+                                <p>Manager</p>
+                            </div>
+                        </div>
+                    </button>
+                </h2>
+                <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#success_story_list">
+                    <div class="accordion-body">
+                        <strong>This is the second item's accordion body.</strong> It is hidden by default, until
+                        the collapse plugin adds the appropriate classes that we use to style each element. These
+                        classes control the overall appearance, as well as the showing and hiding via CSS
+                        transitions. You can modify any of this with custom CSS or overriding our default variables.
+                        It's also worth noting that just about any HTML can go within the
+                        <code>.accordion-body</code>, though the transition does limit overflow.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                        <div class="biography">
+                            <div class="img">
+                                <img src="images/img2.jpg" alt="">
+                            </div>
+
+
+
+
+                            <div class="bio-info">
+                                <h3>Mr. Luna Plant </h3>
+                                <p>Manager</p>
+                            </div>
+                        </div>
+                    </button>
+                </h2>
+                <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#success_story_list">
+                    <div class="accordion-body">
+                        <strong>This is the second item's accordion body.</strong> It is hidden by default, until
+                        the collapse plugin adds the appropriate classes that we use to style each element. These
+                        classes control the overall appearance, as well as the showing and hiding via CSS
+                        transitions. You can modify any of this with custom CSS or overriding our default variables.
+                        It's also worth noting that just about any HTML can go within the
+                        <code>.accordion-body</code>, though the transition does limit overflow.
+                    </div>
+                </div>
+            </div>
+
+            <h6 class="py-2 fs-4"><a class="text-capitalize viewmore">+View More</a></h6>
+
+
+
+            <div class="otherVal">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                            <div class="biography">
+                                <div class="img">
+                                    <img src="images/img2.jpg" alt="">
+                                </div>
+
+                                <div class="bio-info">
+                                    <h3>Mr. HO Office</h3>
+                                    <p>Manager</p>
+                                </div>
+                            </div>
+                        </button>
+                    </h2>
+                    <div id="collapseSeven" class="accordion-collapse collapse" data-bs-parent="#success_story_list">
+                        <div class="accordion-body">
+                            <strong>This is the second item's accordion body.</strong> It is hidden by default,
+                            until
+                            the collapse plugin adds the appropriate classes that we use to style each element.
+                            These
+                            classes control the overall appearance, as well as the showing and hiding via CSS
+                            transitions. You can modify any of this with custom CSS or overriding our default
+                            variables.
+                            It's also worth noting that just about any HTML can go within the
+                            <code>.accordion-body</code>, though the transition does limit overflow.
+                        </div>
+                    </div>
+                </div>
+
+                <!--                 
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                            <div class="biography">
+                                <div class="img">
+                                    <img src="images/img1.jpg" alt="">
+                                </div> -->
+
+
+
+                <!-- <div class="bio-info">
+                                    <h3>Mr. Kalpana Parekh</h3>
+                                    <p>Manager</p>
+                                </div>
+                            </div>
+                        </button>
+                    </h2>
+                    <div id="collapseEight" class="accordion-collapse collapse" data-bs-parent="#success_story_list">
+                        <div class="accordion-body">
+                            <strong>This is the second item's accordion body.</strong> It is hidden by default,
+                            until
+                            the collapse plugin adds the appropriate classes that we use to style each element.
+                            These
+                            classes control the overall appearance, as well as the showing and hiding via CSS
+                            transitions. You can modify any of this with custom CSS or overriding our default
+                            variables.
+                            It's also worth noting that just about any HTML can go within the
+                            <code>.accordion-body</code>, though the transition does limit overflow.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+                            <div class="biography">
+                                <div class="img">
+                                    <img src="images/img2.jpg" alt="">
+                                </div> -->
+
+
+
+                <!-- <div class="bio-info">
+                                    <h3>Mr. Daxesh Patel</h3>
+                                    <p>Manager</p>
+                                </div>
+                            </div>
+                        </button>
+                    </h2>
+                    <div id="collapseNine" class="accordion-collapse collapse" data-bs-parent="#success_story_list">
+                        <div class="accordion-body">
+                            <strong>This is the second item's accordion body.</strong> It is hidden by default,
+                            until
+                            the collapse plugin adds the appropriate classes that we use to style each element.
+                            These
+                            classes control the overall appearance, as well as the showing and hiding via CSS
+                            transitions. You can modify any of this with custom CSS or overriding our default
+                            variables.
+                            It's also worth noting that just about any HTML can go within the
+                            <code>.accordion-body</code>, though the transition does limit overflow.
+                        </div> -->
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+</section>
+
+<!-- thanking -->
+<!-- <section class="thankingSec">
+        <div class="container py-5">
+            <div class="row g-2 py-5">
+                <div class="col-lg-6 col-md-12 col-sm-12 col-auto">
+                    <h1 class="ThankHead">Thanks Buddy</h1>
+                    <p class="">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla maiores velit, voluptates quae
+                        animi architecto, itaque corporis laudantium voluptatibus cumque ullam commodi cum quisquam hic
+                        perferendis et! Itaque, sed quasi.
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut soluta obcaecati in culpa pariatur,
+                        fugiat exercitationem ullam omnis quidem rerum qui nemo reprehenderit modi optio dolorem et
+                        cumque laborum mollitia.
+                    </p>
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12 col-auto">
+                    <div class="row g-2">
+                        <div class="col-lg-4 col-md-4 col-sm-12 col-auto">
+                            <div class="thank-re-box">
+                                <span class="number">01</span>
+                                <div class="icon">
+                                    <span class="fa-solid fa-user-friends"></span>
+                                </div>
+                                <div class="pt-3 fs-5">
+                                    <p>Putting Organization Before Oneself</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-12 col-auto">
+                            <div class="thank-re-box">
+                                <span class="number">02</span>
+                                <div class="icon">
+                                    <span class="fa-solid fa-trophy"></span>
+                                </div>
+                                <div class="pt-3 fs-5">
+                                    <p>Excellent in Execution</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-12 col-auto">
+                            <div class="thank-re-box">
+                                <span class="number">03</span>
+                                <div class="icon">
+                                    <span class="fa-solid fa-lightbulb"></span>
+                                </div>
+                                <div class="pt-3 fs-5">
+                                    <p>Innovation</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-12 col-auto">
+                            <div class="thank-re-box">
+                                <span class="number">04</span>
+                                <div class="icon">
+                                    <span class="fa-solid fa-handshake"></span>
+                                </div>
+                                <div class="pt-3 fs-5">
+                                    <p>Collaboration</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-12 col-auto">
+                            <div class="thank-re-box">
+                                <span class="number">05</span>
+                                <div class="icon">
+                                    <span class="fa-solid fa-exchange"></span>
+                                </div>
+                                <div class="pt-3 fs-5">
+                                    <p>Adaptibility to change</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-12 col-auto">
+                            <div class="thank-re-box">
+                                <span class="number">06</span>
+                                <div class="icon">
+                                    <span class="fa-solid fa-thumbs-up"></span>
+                                </div>
+                                <div class="pt-3 fs-5">
+                                    <p>Respect Trust and Integrity</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row py-3">
+                <p class="text-center px-5">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus unde amet voluptas eligendi
+                    voluptatem neque iste, repellat incidunt, mollitia dolores iure modi sequi veniam, voluptate ullam
+                    at eveniet vel culpa!
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam debitis temporibus assumenda
+                    asperiores repellendus reprehenderit voluptate. Temporibus quas placeat, iste velit magni cumque
+                    tempore cupiditate dolor officiis facilis tempora accusamus.
+                </p>
+            </div>
+        </div>
+    </section> -->
+
+<!-- dicussiob -->
+<section class="discussion">
+    <div class="container">
+        <div class="row py-5">
+            <div class="col-lg-5 col-md-6 col-sm-12 col-auto">
+                <img src="images/troffy.jpg" alt="" class="img-fluid">
+            </div>
+            <div class="col-lg-7 col-md-6 col-sm-12 col-auto">
+                <h1 class="disHead">Rewards</h1>
+                <p>
+                    Employee rewards and recognition have become a critical component of every successful
+                    organisation. Acknowledging and
+                    rewarding employees for their good deed inspires them to keep getting better and binds them to
+                    greater goals. At Exemed,
+                    we recognise the hard work and reward it to motivate our people to set bigger goals.</p>
+            </div>
+        </div>
+        <div class="row py-3">
+            <div class="col-lg-7 col-md-6 col-sm-12 col-auto">
+                <h1 class="disHead">Hall of Fame Achievers</h1>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi porro perferendis harum rem et
+                    assumenda sed repellat ipsa numquam obcaecati quia ab eum nam vitae, neque officia itaque.
+                    Porro, alias.</p>
+            </div>
+            <div class="col-lg-5 col-md-6 col-sm-12 col-auto">
+                <img src="images/rewards.jpg" alt="" class="img-fluid">
+            </div>
+        </div>
+    </div>
+</section>
+
+</html>
+
+{% endblock %}

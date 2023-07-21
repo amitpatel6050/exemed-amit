@@ -1,0 +1,234 @@
+{% extends 'header.html' %}
+{% load static %}
+{% block content %}
+
+<!DOCTYPE html>
+{% csrf_token %}
+<section class="About_details">
+    <div class="container py-5">
+        <div class="row py-5">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-auto text-center">
+                <p class="display-1 text-white">Explorer a Career</p>
+                <p class="text-white fs-4 w-75 py-3 m-auto"></p>
+                <div class="fs-5 text-white"><a href="{% url 'index' %}" class="text-white">Home </a>
+                    <span class="fa-solid fa-angles-right fs-6"></span>
+                    Explorer a Caree
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="mv_icon">
+        <a href="#about_comp"><span class="fa-solid fa-arrow-down"></span></a>
+    </div>
+</section>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+<style>
+    .comp {
+        color: red !important;
+    }
+
+    @media (max-width: 576px) {
+        .form-data {
+            display: flex;
+        }
+
+        .col-label {
+            flex: 1;
+        }
+
+        .col-data {
+            flex: 3;
+        }
+    }
+</style>
+</head>
+
+<section class="collaborate">
+    <div class="row py-4 coll-bg p-0">
+        <div class="col-lg-12">
+            <div class="head-title text-center">
+                <h1 class="text-capitalize"></h1>
+            </div>
+        </div>
+    </div>
+
+
+
+    <body>
+        <div class="container">
+            <form action="" name="" style="margin: auto"><br>
+                <h1 class="text-center">Employee Registration Form</h1><br><br>
+                <!-- name -->
+
+                <form name="contact_us" method="post" action="{% url 'employee_reg' %}" enctype="multipart/form-data"
+                    onsubmit="printingdata()">
+
+
+                    <div class="row form-data pb-3">
+                        <div class="col-lg-2 col-md-2 col-sm-2 col-label text-end">
+                            <label for="" class="form-label fs-6">Name <span class="comp">*</span> </label>
+                        </div>
+                        <div class="col-lg-8 col-md-8 col-sm-10 col-data">
+                            <input type="text" name="name" id="" class="form-control" placeholder="Enter Full Name"
+                                required />
+                        </div>
+                    </div>
+
+
+
+                    <div class="row form-data pb-3">
+                        <div class="col-lg-2 col-md-2 col-sm-2 col-label text-end">
+                            <label for="" class="form-label fs-6">Current Position <span class="comp">*</span> </label>
+                        </div>
+                        <div class="col-lg-8 col-md-8 col-sm-10 col-data">
+                            <input type="text" name="cp" id="" class="form-control" placeholder="Enter current Position"
+                                required />
+                        </div>
+                    </div>
+
+
+                    <div class="row form-data pb-3">
+                        <div class="col-lg-2 col-md-2 col-sm-2 col-label text-end">
+                            <label for="" class="form-label fs-6">Current Exp <span class="comp">*</span> </label>
+                        </div>
+                        <div class="col-lg-8 col-md-8 col-sm-10 col-data">
+                            <input type="text" name="ce" id="" class="form-control" placeholder="Enter Total Experience"
+                                required />
+                        </div>
+                    </div>
+
+
+
+                    <!-- radio button -->
+                    <!-- <div class="row form-data pb-3">
+                <div class="col-lg-2 col-sm-2 col-label text-end">
+                    <label for="" class="form-label fs-6">Location</label>
+                </div>
+                <div class="col-lg-8 col-sm-8 col-data">
+                    <div class="form-check-inline">
+                        <input type="radio" name="gen" id="" class="form-check-input" />
+                        <label for="" class="form-label fs-6">Vapi</label>
+                    </div>
+                    <div class="form-check-inline">
+                        <input type="radio" name="gen" id="" class="form-check-input" />
+                        <label for="" class="form-label fs-6">Vadodara</label>
+                    </div>
+                </div>
+            </div> -->
+                    <!-- select-option -->
+                    <div class="row form-data pb-3">
+                        <div class="col-lg-2 col-sm-2 col-label text-end">
+                            <label for="" class="form-label fs-6">Department <span class="comp">*</span> </label>
+                        </div>
+                        <div class="col-lg-8 col-sm-10 col-data">
+                            <select name="dp" id="" class="form-select" required>
+                                <option value="">---select---</option required>
+                                <option value="QA">Quality Assurance</option>
+                                <option value="QC">Quality Control</option>
+                                <option value="Warehouse">Warehouse</option>
+                                <option value="Engineering">Engineering</option>
+                                <option value="ADL">Analytical Method Development Laboratory</option>
+                                <option value="API">Active Pharmaceutical Ingredient</option>
+                                <option value="EOHS">Environmental, Health, and Safety</option>
+                                <option value="F&D">formulation and development</option>
+                                <option value="R.A">Regulatory Affairs</option>
+                                <option value="IT">Information Technology</option>
+                            </select>
+                        </div>
+                    </div>
+                    <!-- email -->
+                    <div class="row form-data pb-3">
+                        <div class="col-lg-2 col-sm-2 col-label text-end">
+                            <label for="" class="form-label">Email <span class="comp">*</span> </label>
+                        </div>
+                        <div class="col-lg-8 col-sm-10 col-data">
+                            <div class="input-group">
+                                <input type="email" name="email" id="" placeholder="Enter E-Mail ID"
+                                    class="form-control" required />
+                                <!-- <label for="" class="input-group-text">@gmail.com</label> -->
+                            </div>
+                        </div>
+                    </div>
+                    <!-- password -->
+                    <div class="row form-data pb-3">
+                        <div class="col-lg-2 col-sm-2 col-label text-end">
+                            <label for="" class="form-label">Mobile Number <span class="comp">*</span> </label>
+                        </div>
+                        <div class="col-lg-8 col-sm-10 col-data">
+                            <input type="text" name="mobile" id="" class="form-control"
+                                placeholder="Enter Mobile Number" required />
+                        </div>
+                    </div>
+
+                    <div class="row form-data pb-3">
+                        <div class="col-lg-2 col-sm-2 col-label text-end">
+                            <label for="" class="form-label">Resume <span class="comp">*</span> </label>
+                        </div>
+                        <div class="col-lg-8 col-sm-10 col-data">
+                            <input type="file" name="Resume" id="" class="form-control" required />
+                        </div>
+                    </div>
+
+                    <div class="row form-data pb-3">
+                        <div class="col-lg-2 col-sm-2 col-label text-end">
+                            <!-- <label for="" class="form-label">Resume</label> -->
+                        </div>
+                        <div class="col-lg-8 col-sm-10 col-data">
+                            <!-- <input type="text" name="" id="" class="form-control" placeholder="Upload Your Resume" /> -->
+                        </div>
+                    </div>
+                    <!-- checkbox  -->
+                    <!-- <div class="row form-data pb-3">
+                <div class="col-lg-2 col-sm-2 col-label"></div>
+                <div class="col-lg-8 col-sm-10 col-data">
+                    <input type="checkbox" name="" id="" class="form-check-input" />
+                    <label for="" class="form-label">Show Password</label>
+                </div>
+            </div> -->
+                    <!-- textarea -->
+                    <!-- <div class="row form-data pb-3">
+                <div class="col-lg-2 col-sm-2 col-label text-end">
+                    <label for="" class="form-label">Address</label>
+                </div>
+                <div class="col-lg-8 col-sm-10 col-data">
+                    <div class="form-floating">
+                        <textarea name="" id="address" cols="10" rows="1" class="form-control"
+                            placeholder="Enter Address"></textarea>
+                        <label for="address" class="form-label">Enter Address</label>
+                    </div>
+                </div>
+            </div> -->
+                    <!-- button -->
+                    <div class="row form-data pb-3">
+                        <div class="col-lg-2 col-sm-2 col-label"></div>
+                        <div class="col-lg-8 col-sm-10 col-data">
+                            <button type="submit" class="btn btn-success" name="submit">Register</button>
+                            <button type="reset" class="btn btn-secondary">Clear</button>
+                        </div>
+
+                        {% if msg %}
+                        <b style="color: blue;">{{msg}}</b>
+                        {% endif %}
+
+
+                    </div>
+                </form>
+        </div>
+    </body>
+
+
+    <section class="collaborate">
+        <div class="row py-4 coll-bg p-0">
+            <div class="col-lg-12">
+                <div class="head-title text-center">
+                    <h1 class="text-capitalize"></h1>
+                </div>
+            </div>
+        </div>
+
+
+        </html>
+
+        {% endblock %}

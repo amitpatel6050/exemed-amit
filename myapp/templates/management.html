@@ -1,0 +1,158 @@
+{% extends 'header.html' %}
+{% load static %}
+{% block content %}
+<!DOCTYPE html>
+{% csrf_token %}
+
+<section class="About_details">
+    <div class="container py-5">
+        <div class="row py-5">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-auto text-center">
+                <p class="display-1 text-white">Management</p>
+                <p class="text-white fs-4 w-75 py-3 m-auto">Exemed is a regulatory-compliant, customer-centric and
+                    global leading pharmaceutical company in India.</p>
+                <div class="fs-5 text-white"><a href="{% url 'index' %}" class="text-white">Home </a>
+                    <span class="fa-solid fa-angles-right fs-6"></span>
+                    About Us
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="mv_icon">
+        <a href="#about_comp"><span class="fa-solid fa-arrow-down"></span></a>
+    </div>
+</section>
+
+<!-- about directors -->
+<section class="about-director">
+    <div class="container py-5">
+        <div class="row py-3 g-2">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                <div class="director_d speed p-4">
+                    <div class="about_d pb-3">
+                        <div class="dir_img">
+                            <img src="{% static 'images/pranavsir-final2.png'%}" alt="">
+                        </div>
+                        <div class="dir_title px-5">
+                            <h3 class="mb-0">Mr.Pranav Patel</h3>
+                            <p class="mb-0 fw-bold">Managing Director</p>
+                            <p class="mb-0">Exemed Pharmaceuticals</p>
+                        </div>
+                    </div>
+                    <div class="dir_image">
+                        <div class="readmore text-center">
+                            <button class="btn btn-primary" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#dirDetails" aria-expanded="false" aria-controls="collapseExample">
+                                Read More
+                                <span class="fa-solid fa-arrow-down"></span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="collapse" id="dirDetails">
+                        <div class="pt-3">
+                            Mr. Pranav Patel is Founder and Executive director of Oneiro Chemicals Pvt. Ltd. He also
+                            currently superheads Exemed
+                            Pharmaceuticals. Mr. Patel holds a Master's in Business Management with a specialization
+                            in Finance from the University
+                            of Illinois at Chicago. He returned to India to join his family-owned business
+                            enterprise in 2004. After sharpening his
+                            saw in manufacturing for a range of pharmaceutical ingredients that are used as raw
+                            materials in the pharmaceutical
+                            industry, he was able to blend entrepreneurial spirit and technical expertise.
+                            In 2009, Mr. Patel started the State of art manufacturing facility of Metformin API to
+                            serve regulated international
+                            markets like US & Europe. Exemed Pharmaceuticals, today, is a name to reckon with in the
+                            highly competitive
+                            Pharmaceuticals industry as a trusted supplier of high-quality APIs. He is also a
+                            managing committee member of
+                            Federation of Gujarat Industry and vadodara Cricket Association.
+                        </div>
+                    </div>
+                    <div class="circle_move"></div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                <div class="director_d speed p-4">
+                    <div class="about_d pb-3">
+                        <div>
+                            <img src="{% static 'images/dushyansir2.png'%}" alt="">
+                        </div>
+                        <div class="dir_title px-5">
+                            <h3 class="mb-0">Mr.Dushyan Patel</h3>
+                            <p class="mb-0 fw-bold">Chairman</p>
+                            <p class="mb-0">Exemed Pharmaceuticals</p>
+                        </div>
+                        <div class="circle_move"></div>
+                    </div>
+                    <div class="dir_image">
+                        <div class="readmore text-center">
+                            <button class="btn btn-primary" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#dirDetails1" aria-expanded="false" aria-controls="collapseExample">
+                                Read More
+                                <span class="fa-solid fa-arrow-down"></span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="collapse" id="dirDetails1">
+                        <div class="pt-3">
+                            Mr. Dushyant Patel is the founder and promoter of Exemed Pharmaceuticals. He holds a
+                            bachelor’s degree in Electrical
+                            Engineering. He has 41 years of Experience in the field of Pharmaceuticals API,
+                            Intermediate and Chemicals. He is well
+                            versed with all-round management of the company and has vast experience across the
+                            Production, Technical and Commercial
+                            functions of the company.
+                            He is also chairman of Aimco Pesticides Ltd (Listed Company) , Director of Zydus
+                            Infrastructure Pvt Ltd and Abhigam
+                            Consultants Pvt Ltd. He was also Previously associated with Transpek Industries Ltd and
+                            Transpek Finance Ltd as a
+                            Director.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- About company -->
+<section class="about-company" id="about_comp">
+    <div class="container py-5">
+        <div class="row py-5">
+            <p class="text-capitalize fs-5">Exemed is a venture being initiated by a business group involved in
+                manufacturing of Drug-intermediates & speciality
+                chemicals, for more than three decades, having a reputation for high quality & reliability. Exemed
+                offers end to end
+                solutions starting from Intermediates, APIs to Finished formulations with a strong R&D team and
+                world class
+                manufacturing infrastructure..</p>
+        </div>
+        <div class="row">
+            <div class="container">
+                <h1 class="text-center about_title">About Exemed Pharmaceuticals Company</h1>
+            </div>
+        </div>
+        <div class="row py-4 g-5">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-auto">
+                <div class="history-data">
+                    <h4 class="text-center">Since</h4>
+                    <h1 class="text-center">2009</h1>
+                    <p class="text-center m-auto">Exemed is a regulatory-compliant, customer-centric, and global
+                        leading pharmaceutical company in India.
+                        It was established in 2009 as part of a venture initiated by Mr. Pranav Patel. It is
+                        supported by two manufacturing
+                        facilities involved in the manufacturing of Drug-intermediates and specialty chemicals. Our
+                        state-of-the-art US FDA,
+                        EDQM, EU GMP certified facility is located in Luna and Vapi and headquartered in Vadodara,
+                        Gujarat.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+</html>
+
+{% endblock %}
